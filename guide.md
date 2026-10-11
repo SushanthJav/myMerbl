@@ -57,7 +57,7 @@ you have probably selected which type of movement you have, a list of those [her
 
 
 # I.BASE
-the base is pretty simple, just sketch any type of base under 150x150x4 mm. for mine, i used a 180x180x3 rectangle. pick a plane, and sketch on it, and just make a rectangle, circle or any shape you want. im gonna show you how to make a base that is a rectangle, circle and a splined base (ill explain more)
+the base is pretty simple, just sketch any type of base under 150x150x4 mm. for mine, i used a 180x180x3 rectangle. pick a plane, and sketch on it, and just make a rectangle, circle or any shape you want. im gonna show you how to make a base that is a rectangle, and circle.
 to make a plane, first make a sketch:
 click on the sketch icon on the top-left corner:
 
@@ -99,7 +99,47 @@ then do the same thing for the other side and make it 75mm again:
 <img width="362" height="405" alt="image" src="https://github.com/user-attachments/assets/46dd0ff2-3804-49dc-a2c3-35e5ffe3abbc" />
 
 #### circle
-circle just makes a perfect circle. there are 2 types of circles, center circle which is the same as center rectangle, it decides the centre of the circle and the distance from its circumference aka radius. then we have 3 point circle. it determines 3 points that should be on the circumference and forms a circle from that.
+circle just makes a perfect circle. there are 2 types of circles, center circle which is the same as center rectangle, it decides the centre of the circle and the distance from its circumference aka radius. then we have 3 point circle. it determines 3 points that should be on the circumference and forms a circle from that. this is how the circle tool dropdown thing looks like:
+
+<img width="179" height="81" alt="image" src="https://github.com/user-attachments/assets/f66909d1-d532-4f27-a041-a4f83d3fea5b" />
+
+were mainly gnna use the center tool. heres what each circle tool does:
+
+<img width="666" height="427" alt="image" src="https://github.com/user-attachments/assets/abc108ab-24f1-479c-ad40-b88d63fef407" />
+
+(center, 3-point)
+
+just choose the center circle and draw a circle of any size:
+
+<img width="363" height="411" alt="image" src="https://github.com/user-attachments/assets/e66ee847-39a1-4c9c-afdf-74c9f736e3af" />
+
+then use the dimension tool, and select the edge of the circle. set the measurement to 75mm. like this:
+
+<img width="641" height="601" alt="image" src="https://github.com/user-attachments/assets/9cee9d2b-aca3-4400-ac0a-10f6821e8d15" />
+
+thats the circle tool!
+
+after making the shape, click the green check mark to finish sketch:
+
+<img width="176" height="91" alt="image" src="https://github.com/user-attachments/assets/812fe321-348e-41f9-b27a-abb4381475bf" />
+
+after that, we will be using the extrude tool to convert this sketch into an actual 3d shape. it pushes the sketch profiles (closed sketch shapes) straight out, perpendicular to the sketch plane, to give it thickness. 
+select the extrude tool:
+
+<img width="128" height="74" alt="image" src="https://github.com/user-attachments/assets/4d409a5f-a088-42dc-a78e-253c1faca5df" />
+
+after you select the extrude tool, select the profile (closed shape) we made:
+
+<img width="966" height="831" alt="image" src="https://github.com/user-attachments/assets/8e312ad6-0362-43df-bb44-b32be354b323" />
+
+then the depth of the sketch (the actual thickness) make it 4mm:
+
+<img width="256" height="84" alt="image" src="https://github.com/user-attachments/assets/cd5ddeff-6e3d-4624-a474-1e558bc2115c" />
+
+and click on the green check:
+
+<img width="80" height="73" alt="image" src="https://github.com/user-attachments/assets/f3aed8a0-4d23-4708-9435-673085d8ca9c" />
+
 
 
 # II.TRACKS
