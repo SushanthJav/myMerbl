@@ -76,6 +76,12 @@ in this tutorial we will use all three. the rectangle tools are here, use the dr
 
 <img width="159" height="68" alt="image" src="https://github.com/user-attachments/assets/cb88b366-6792-4ce8-aaf3-8ac472d9c8c4" />
 
+this is what they form:
+
+<img width="355" height="375" alt="image" src="https://github.com/user-attachments/assets/f6e9b4d3-af07-4f36-91bc-b71d3f8a0b4a" />
+
+(centre rect, 2-point rect, aligned rect)
+
 to make the base, first select your rectangle tool, both center rect and corner rect work, if your confused just use centre rect tool. click anywhere to first mark the center. then just click again farther from that point to determine the corner. and yeah thats a rect! then we will use the dimension tool to determine its length and breadth
 
 dimension tool is a sketching tool that sets the distance of 2 points, length of line, angle between 2 lines, or diameter of circle.
@@ -93,7 +99,7 @@ then do the same thing for the other side and make it 75mm again:
 <img width="362" height="405" alt="image" src="https://github.com/user-attachments/assets/46dd0ff2-3804-49dc-a2c3-35e5ffe3abbc" />
 
 #### circle
-circle just makes a perfect circle. there are 3 types of circles, center circle which is the same as center rectangle, it decides the centre of the circle and the distance from its circumference aka radius.
+circle just makes a perfect circle. there are 2 types of circles, center circle which is the same as center rectangle, it decides the centre of the circle and the distance from its circumference aka radius. then we have 3 point circle. it determines 3 points that should be on the circumference and forms a circle from that.
 
 
 # II.TRACKS
