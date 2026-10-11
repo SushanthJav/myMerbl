@@ -119,6 +119,9 @@ then use the dimension tool, and select the edge of the circle. set the measurem
 
 thats the circle tool!
 
+> #### Sketches on Onshape:
+> a detailed guide about sketches are [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
+
 after making the shape, click the green check mark to finish sketch:
 
 <img width="176" height="91" alt="image" src="https://github.com/user-attachments/assets/812fe321-348e-41f9-b27a-abb4381475bf" />
@@ -141,18 +144,13 @@ and click on the green check:
 <img width="80" height="73" alt="image" src="https://github.com/user-attachments/assets/f3aed8a0-4d23-4708-9435-673085d8ca9c" />
 
 
-
 # II.TRACKS
 
-tracks are made by first, having a path and then having a profile perpendicular to the start of the path.
+tracks need two things - a path and a sketch. so first we will make a path. 
 
-first make a sketch:
+make a sketch:
 
 <img width="336" height="143" alt="image" src="https://github.com/user-attachments/assets/4ede3e70-b0ef-49aa-a997-af48ff2b1930" />
-
-> #### Sketches on Onshape:
-> a detailed guide about sketches are [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
-
 
 and place it on a plane:
 
@@ -179,9 +177,25 @@ https://github.com/user-attachments/assets/daba3795-5428-42c3-92bc-7ec49f04fc53
 > 
 > <img width="470" height="958" alt="image" src="https://github.com/user-attachments/assets/579ace92-77ed-4079-9c1d-5943323e268f" />
 
-then for the sweep profile, we have to first make a plane:
+then for the sweep profile, we have to first make a plane. we know that onshape has 3 planes that are default, but these arent angled/positioned in a way that can help us. so we have to make planes:
 
-> #### Making Planes on Onshape:
+to make a plane first select the plane tool:
+
+<img width="128" height="83" alt="image" src="https://github.com/user-attachments/assets/5b1e3ad2-0a6a-4e7a-bddb-8d74f97b0605" />
+
+and then select the line angle tool (use this dropdown):
+
+<img width="266" height="37" alt="image" src="https://github.com/user-attachments/assets/2eff2d33-c21d-42c6-a06d-e3b80867766e" />
+
+and set it to line angle:
+
+<img width="269" height="60" alt="image" src="https://github.com/user-attachments/assets/7383f466-107d-4f6f-9f83-eedd96493fad" />
+
+and select the line you have made from the sketch. we are angle-ing this so that the track leads downward, thus the ball goes down using gravity. 
+
+
+
+> #### Planes on Onshape:
 > planes are a very important part of this tutorial, you have to use them as where the sketch is actually drawn. there are multiple ways of making a plane, [this](https://cad.onshape.com/help/Content/PartStudio/plane.htm) guide shows all the different types of planes and how they are made. 
 
 use the plane tool and select the point normal plane, and after that select any point of the line and the line itself. you should see a plane being formed perpendicular to the line at the point you've selected
