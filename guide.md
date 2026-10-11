@@ -23,7 +23,7 @@ The flow of a marble race is basically: \
 You'll start by thinking how you want the marble to move and then actually turn that into tracks and stuff.
 
 ### You will be working with:
-- **Sketches** : drawings  on a 2d plane
+- **Sketches** : drawings on a 2d plane
 - **Sweep** : this actually makes the track, by extending a 2d sketch shape along a 3d path
 - **Transform** : moves, rotates and scales the parts
 - **Extrude** : just extends the specific 2d shape in a straight perpendicular line
@@ -45,6 +45,10 @@ this should be your screen:
 you have probably selected which type of movement you have, a list of those [here](https://cad.onshape.com/help/Content/View/view_navigation_and_the_view_cube.htm)
 
 > #### Sketching on Onshape
+> we sketch on planes, a plane is an invisible sheet of glass floating in 3D space. onshape has 3 basic planes, front, top and right.
+> a sketch is a flat 2d drawing on a plane, kinda like a thin sheet of paper but it has no thickness. its job is to make 2d outlines we can form into 3d shapes.
+> after we make a sketch we use operations such as extrude, revolve or sweep to make it 3d.
+> 
 > sketching in onshape is very basic, just click on the sketch tool on top-left corner and select a plane:
 > 
 > <img width="369" height="240" alt="image" src="https://github.com/user-attachments/assets/ef1a328a-7a5e-4e4d-a794-a8a501cd15d6" />
@@ -53,17 +57,44 @@ you have probably selected which type of movement you have, a list of those [her
 
 
 # I.BASE
-the base is pretty simple, just sketch any type of base under 150x150x4 mm. for mine, i used a 180x180x3 rectangle. pick a plane, and sketch on it, and just make a rectangle, circle or any shape you want.
+the base is pretty simple, just sketch any type of base under 150x150x4 mm. for mine, i used a 180x180x3 rectangle. pick a plane, and sketch on it, and just make a rectangle, circle or any shape you want. im gonna show you how to make a base that is a rectangle, circle and a splined base (ill explain more)
+to make a plane, first make a sketch:
+click on the sketch icon on the top-left corner:
 
-like these for example:
+<img width="369" height="240" alt="image" src="https://github.com/user-attachments/assets/ef1a328a-7a5e-4e4d-a794-a8a501cd15d6" />
 
-<img width="783" height="477" alt="image" src="https://github.com/user-attachments/assets/924b9061-a260-4e15-ab95-9caa16d4600d" />
+then sketching needs a plane. click on any of the default planes of onshape (top, right, front):
 
-<img width="578" height="361" alt="image" src="https://github.com/user-attachments/assets/d98f6611-b5f1-49f3-a2a4-68a83244441e" />
+<img width="1566" height="922" alt="image" src="https://github.com/user-attachments/assets/39ad72f1-4d21-4d75-8601-5cfd99964fed" />
 
-<img width="668" height="440" alt="image" src="https://github.com/user-attachments/assets/0227d86a-b239-44c2-8366-5474cded8545" />
+after that, draw your base shape, you can use these tools:
 
-im just tryna say you can make it whatever you want.
+#### rectangle
+there are 2 types of rectangles on onshape - center rect, 2-point rect, and aligned rect. center rect allows you to determine the centre of the rectangle and one of the corner points. then there is a 2-point rect which just lets you determine 2 opposite corners of a rectangle. then aligned rectangle allows you to determine the angle of one point, and the length of both sides. 
+
+in this tutorial we will use all three. the rectangle tools are here, use the drop down:
+
+<img width="159" height="68" alt="image" src="https://github.com/user-attachments/assets/cb88b366-6792-4ce8-aaf3-8ac472d9c8c4" />
+
+to make the base, first select your rectangle tool, both center rect and corner rect work, if your confused just use centre rect tool. click anywhere to first mark the center. then just click again farther from that point to determine the corner. and yeah thats a rect! then we will use the dimension tool to determine its length and breadth
+
+dimension tool is a sketching tool that sets the distance of 2 points, length of line, angle between 2 lines, or diameter of circle.
+
+select the dimension tool:
+
+<img width="188" height="119" alt="image" src="https://github.com/user-attachments/assets/24c699e9-63dd-4c9f-a6d4-9d8c3c1a7525" />
+
+and click on any edge. then click again a little bit farther from it. then type in your desired value, for this tutorial use 75mm. if the size dialog goes away, double click the number you just got:
+
+<img width="382" height="482" alt="image" src="https://github.com/user-attachments/assets/a9e258c8-c603-48f2-a146-9ed2b0aba014" />
+
+then do the same thing for the other side and make it 75mm again:
+
+<img width="362" height="405" alt="image" src="https://github.com/user-attachments/assets/46dd0ff2-3804-49dc-a2c3-35e5ffe3abbc" />
+
+#### circle
+circle just makes a perfect circle. there are 3 types of circles, center circle which is the same as center rectangle, it decides the centre of the circle and the distance from its circumference aka radius.
+
 
 # II.TRACKS
 
