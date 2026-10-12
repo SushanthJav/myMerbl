@@ -122,6 +122,9 @@ thats the circle tool!
 > #### Sketches on Onshape:
 > a detailed guide about sketches are [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
 
+> #### Shapes on Onshape:
+> there are many types of shapes and line which are necessary for this tutorial, more info [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
+
 after making the shape, click the green check mark to finish sketch:
 
 <img width="176" height="91" alt="image" src="https://github.com/user-attachments/assets/812fe321-348e-41f9-b27a-abb4381475bf" />
@@ -146,28 +149,29 @@ and click on the green check:
 
 # II.TRACKS
 
-tracks need two things - a path and a sketch. so first we will make a path. 
+tracks need two things - a path and a profile. a profile is a closed 2d sketch shape that were gnna be using for the sweep. a path is lines on a 2d plane that the sweep is actually gnna follow. first we will make a path. 
 
-make a sketch:
+start by selecting the sketch tool. :
 
 <img width="336" height="143" alt="image" src="https://github.com/user-attachments/assets/4ede3e70-b0ef-49aa-a997-af48ff2b1930" />
 
-and place it on a plane:
+and place it on any of the default onshape planes. it doesnt matter which of the 3 planes you are choosing:
 
 <img width="1233" height="909" alt="image" src="https://github.com/user-attachments/assets/87157cb1-c3aa-46b6-949f-f946348fa509" />
 
-and then draw any line shape like this:
+and then select the line tool:
+
+<img width="204" height="71" alt="image" src="https://github.com/user-attachments/assets/ae848891-56d1-4c93-b4ac-b1b7b1c013ef" />
+
+and place a line. to place a line just click anywhere on the sketch plane and then it should form a line from where you clicked till your mouse pointer. then make sure the line is horizontal and click again. 
 
 <img width="1489" height="915" alt="image" src="https://github.com/user-attachments/assets/5ecbd4c4-1acd-45d7-a57a-eedc924309bf" />
 
-> #### Shapes on Onshape:
-> there are many types of shapes and line which are necessary for this tutorial, more info [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
-
-after that, to edit the length of the line, you can press 'd' or this icon:
+after that, we have to edit the length of the line using the dimension tool. the dimension tool sets distance between 2 points, length of line, angle between 2 lines, diameter of circle and more. you can press 'd' or this icon:
 
 <img width="102" height="89" alt="image" src="https://github.com/user-attachments/assets/693888ab-4008-4ace-8270-c66b85ff54e7" />
 
-and select the line, and click again. you can double click that constraint value to edit it.
+and select the line, and click again, a little bit away from the line. it should bring up a window where you can put in a numerical value. im using 50mm 
 
 all together:
 
