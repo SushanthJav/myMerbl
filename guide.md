@@ -44,8 +44,11 @@ this should be your screen:
 
 you have probably selected which type of movement you have, a list of those [here](https://cad.onshape.com/help/Content/View/view_navigation_and_the_view_cube.htm)
 
-> #### Sketching on Onshape
+> #### Planes on Onshape:
 > we sketch on planes, a plane is an invisible sheet of glass floating in 3D space. onshape has 3 basic planes, front, top and right.
+> planes are a very important part of this tutorial, you have to use them as where the sketch is actually drawn. there are multiple ways of making a plane, [this](https://cad.onshape.com/help/Content/PartStudio/plane.htm) guide shows all the different types of planes and how they are made. 
+
+> #### Sketching on Onshape
 > a sketch is a flat 2d drawing on a plane, kinda like a thin sheet of paper but it has no thickness. its job is to make 2d outlines we can form into 3d shapes.
 > after we make a sketch we use operations such as extrude, revolve or sweep to make it 3d.
 > 
@@ -54,7 +57,6 @@ you have probably selected which type of movement you have, a list of those [her
 > <img width="369" height="240" alt="image" src="https://github.com/user-attachments/assets/ef1a328a-7a5e-4e4d-a794-a8a501cd15d6" />
 >
 > <img width="1484" height="918" alt="image" src="https://github.com/user-attachments/assets/727b49ae-87f9-4713-a1ec-ed3a36605744" />
-
 
 # I.BASE
 the base is pretty simple, just sketch any type of base under 150x150x4 mm. for mine, i used a 180x180x3 rectangle. pick a plane, and sketch on it, and just make a rectangle, circle or any shape you want. im gonna show you how to make a base that is a rectangle, and circle.
@@ -151,11 +153,11 @@ and click on the green check:
 
 tracks need two things - a path and a profile. a profile is a closed 2d sketch shape that were gnna be using for the sweep. a path is lines on a 2d plane that the sweep is actually gnna follow. first we will make a path. 
 
-start by selecting the sketch tool. :
+start by selecting the sketch tool:
 
 <img width="336" height="143" alt="image" src="https://github.com/user-attachments/assets/4ede3e70-b0ef-49aa-a997-af48ff2b1930" />
 
-and place it on any of the default onshape planes. it doesnt matter which of the 3 planes you are choosing:
+and then click on any of the default onshape planes (top, right, front). it doesnt matter which of the 3 planes you are choosing:
 
 <img width="1233" height="909" alt="image" src="https://github.com/user-attachments/assets/87157cb1-c3aa-46b6-949f-f946348fa509" />
 
@@ -179,40 +181,58 @@ it should bring up a window where you can put in a numerical value. im using 50m
 
 <img width="436" height="154" alt="image" src="https://github.com/user-attachments/assets/a29fac1f-c663-493e-8b5b-72430b8b39ba" />
 
+after that, click on the green checkmark to finish the sketch, make sure you get a line that is 50mm long.
+
+<img width="77" height="96" alt="image" src="https://github.com/user-attachments/assets/c54c0145-7e30-4c43-af1b-c104b92b0a64" />
 
 all together:
 
 https://github.com/user-attachments/assets/daba3795-5428-42c3-92bc-7ec49f04fc53
 
-> also you can hide the planes and all from the left hand sided features panel:
+> also you can hide the planes and sketches from the left hand sided features panel:
+> the features panel shows you a timeline of features such as plane, extrude, revolve, etc and you can manage these operations (hide, delete, edit) from this window
 > 
 > <img width="470" height="958" alt="image" src="https://github.com/user-attachments/assets/579ace92-77ed-4079-9c1d-5943323e268f" />
 
-then for the sweep profile, we have to first make a plane. we know that onshape has 3 planes that are default, but these arent angled/positioned in a way that can help us. so we have to make planes:
 
-to make a plane first select the plane tool:
+use the plane tool:
 
-<img width="128" height="83" alt="image" src="https://github.com/user-attachments/assets/5b1e3ad2-0a6a-4e7a-bddb-8d74f97b0605" />
+<img width="108" height="97" alt="image" src="https://github.com/user-attachments/assets/db6cb0b7-2c11-4aa1-ac69-8b170d4c9513" />
 
-and then select the line angle tool (use this dropdown):
+it should bring up the planes window:
 
-<img width="266" height="37" alt="image" src="https://github.com/user-attachments/assets/2eff2d33-c21d-42c6-a06d-e3b80867766e" />
+<img width="225" height="171" alt="image" src="https://github.com/user-attachments/assets/6fe3f2a5-754f-4293-ab2e-73f712512b9a" />
 
-and set it to line angle:
+here the entities are stuff that we selected, such as points, lines and planes.
 
-<img width="269" height="60" alt="image" src="https://github.com/user-attachments/assets/7383f466-107d-4f6f-9f83-eedd96493fad" />
+then select the point normal, from this dropdown:
 
-and select the line you have made from the sketch. we are angle-ing this so that the track leads downward, thus the ball goes down using gravity. 
+<img width="270" height="52" alt="image" src="https://github.com/user-attachments/assets/050ca412-6469-4bd0-b42e-afee336d1c47" />
 
-> #### Planes on Onshape:
-> planes are a very important part of this tutorial, you have to use them as where the sketch is actually drawn. there are multiple ways of making a plane, [this](https://cad.onshape.com/help/Content/PartStudio/plane.htm) guide shows all the different types of planes and how they are made. 
+<img width="262" height="45" alt="image" src="https://github.com/user-attachments/assets/936763e9-bf1e-4b77-a860-1225c5b3020d" />
 
-use the plane tool and select the point normal plane, and after that select any point of the line and the line itself. you should see a plane being formed perpendicular to the line at the point you've selected
+the point normal tool makes a plane, and the planes normal is the line. the plane is positioned at the point we have picked. so select the plane we just made, and a point on the end of the plane, these:
 
-like this:
-<img width="1499" height="920" alt="image" src="https://github.com/user-attachments/assets/e4ff8045-a1e9-4f48-b277-7475a201f7c3" />
+<img width="443" height="142" alt="image" src="https://github.com/user-attachments/assets/96b4b669-618e-401c-b6d3-151b3d4ccc0c" />
 
-and make another sketch on that. then were gnna make the profile that will sweep and actually make the tracks, here it means the track shape. so this is a very important step. anyways make the sketch.
+<img width="460" height="114" alt="image" src="https://github.com/user-attachments/assets/292b4b67-b707-4b38-8df7-7690dd59a530" />
+
+select those and then it should give something like this:
+
+<img width="631" height="711" alt="image" src="https://github.com/user-attachments/assets/0880c49f-9e07-43b7-a9fa-df948ebd147d" />
+
+and your plane window should be like this:
+
+<img width="224" height="183" alt="image" src="https://github.com/user-attachments/assets/cf67be79-7a5d-4468-ad00-c867f3411286" />
+
+
+now were gnna make the profile that will sweep and actually make the tracks, here it means the track shape. so this is a very important step. make a sketch on the plane we just made:
+
+<img width="175" height="64" alt="image" src="https://github.com/user-attachments/assets/0454716c-aa0c-4a8a-9092-9cc5cf4c7b38" />
+
+<img width="1276" height="718" alt="image" src="https://github.com/user-attachments/assets/220e143a-814c-4c8e-9796-dc49d8ed3036" />
+
+
 so we are using marbles that are 16mm in diameter. so my tracks have 18mm inner diameter to have some tolerance and slack. my tracks outer diameter is 23mm, so with that the track is 2.5mm thick. heres my sketch of a track:
 
 <img width="780" height="580" alt="image" src="https://github.com/user-attachments/assets/4399d854-a39f-4320-b818-03300145f793" />
@@ -232,6 +252,22 @@ and thats how to make a basic track! the next thing you learn is how to make adv
 delete the part we just made. at the bottom left there should be a parts window, where you can see all the parts in the design. just right click on that part and click on delete.
 then unhide your old sketches (the path and the profile) from the features tab. 
 now we need to make a new plane. this time select line angle. then select the line, and specify the angle you want the plane to be at, this will make it more steeper/flatter. 
+
+then for the sweep profile, we have to first make a plane. we know that onshape has 3 planes that are default, but these arent angled/positioned in a way that can help us. so we have to make planes:
+
+to make a plane first select the plane tool:
+
+<img width="128" height="83" alt="image" src="https://github.com/user-attachments/assets/5b1e3ad2-0a6a-4e7a-bddb-8d74f97b0605" />
+
+and then select the line angle tool (use this dropdown):
+
+<img width="266" height="37" alt="image" src="https://github.com/user-attachments/assets/2eff2d33-c21d-42c6-a06d-e3b80867766e" />
+
+and set it to line angle:
+
+<img width="269" height="60" alt="image" src="https://github.com/user-attachments/assets/7383f466-107d-4f6f-9f83-eedd96493fad" />
+
+and select the line you have made from the sketch. we are angle-ing this so that the track leads downward, thus the ball goes down using gravity. 
 
 this is what I did:
 
