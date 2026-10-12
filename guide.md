@@ -354,11 +354,27 @@ click on the green tick to confirm:
 
 and thats how to make a basic track! the next thing you learn is how to make advanced path sketches:
 
-delete the part we just made. at the bottom left there should be a parts window, where you can see all the parts in the design. just right click on that part and click on delete.
-then unhide your old sketches (the path and the profile) from the features tab. 
-now we need to make a new plane. this time select line angle. then select the line, and specify the angle you want the plane to be at, this will make it more steeper/flatter. 
+first we will delete the track we just made. to delete, there is a parts window which has a list of all our 3d parts in the bottom left, we can delete and hide stuff here:
 
-then for the sweep profile, we have to first make a plane. we know that onshape has 3 planes that are default, but these arent angled/positioned in a way that can help us. so we have to make planes:
+<img width="357" height="355" alt="image" src="https://github.com/user-attachments/assets/9139d657-6fd1-428c-af58-98ac227f93be" />
+
+to delete, just right click on the part, a window should pop up:
+
+<img width="279" height="345" alt="image" src="https://github.com/user-attachments/assets/a950b24d-3554-41a4-a0a5-73311740ea8d" />
+
+and click on delete. it should bring up a window like this:
+
+<img width="214" height="134" alt="image" src="https://github.com/user-attachments/assets/0b807af3-6daf-4c50-98aa-8621a467fbb4" />
+
+then just click the green checkmark:
+
+<img width="74" height="58" alt="image" src="https://github.com/user-attachments/assets/a9996bc2-27ab-490b-9414-0b73540d776c" />
+
+and the part gets deleted! to hide/show the part just click on this eye icon:
+
+<img width="258" height="87" alt="image" src="https://github.com/user-attachments/assets/aa4a505d-149f-42e7-8043-0153d6aebd8c" />
+
+were gnna make an advanced track now. first we will make a slanting plane, after that we will sketch on it.
 
 to make a plane first select the plane tool:
 
@@ -374,11 +390,49 @@ and set it to line angle:
 
 and select the line you have made from the sketch. we are angle-ing this so that the track leads downward, thus the ball goes down using gravity. 
 
-this is what I did:
+to determine how much the plane should slant, edit the angle here:
 
-<img width="598" height="345" alt="image" src="https://github.com/user-attachments/assets/71f4d0ff-4627-4e02-968d-031870117e68" />
+<img width="276" height="193" alt="image" src="https://github.com/user-attachments/assets/9ef1e8c6-52ce-4b44-97b5-ee21ac82dbd1" />
 
-after that, make a sketch on it. from the end point, you can start drawing your tilted track. use tools like splines, circles, tangent lines, etc. (you can refer to the onshape help guide)
+i used 70degrees:
+
+<img width="861" height="543" alt="image" src="https://github.com/user-attachments/assets/8aa5cd1c-3c7a-4dd1-aff9-24b4bdc25435" />
+
+
+after that, make a sketch on it:
+
+<img width="567" height="562" alt="image" src="https://github.com/user-attachments/assets/6475c50c-5f8b-4ba6-9da0-a159b64e022f" />
+
+you can see the line that we made previously (earlier path for sweep). we have to continue building in front of it. so theres tools like spline, circle, lines, fillet etc we can use. ill show you how to use each.
+so for the ball to actually travel, it needs to slope down. here, we tilted the plane to help create that slope. so if i draw lines that go down the plane, it will make the ball move. and if i draw it above it creates and upward slope. 
+
+these are some techniques to help you:
+
+### Line + Fillet
+this method allows you to determine the strength of the curve and control direction really well while keeping the space taken small. so first you extend your existing line, then make another line that coincidents that, and then give an angle between those lines and then fillet those.
+so first use the line tool and dimension tool:
+
+<img width="596" height="519" alt="image" src="https://github.com/user-attachments/assets/e26e4d10-57c4-433c-8082-da359bb1e523" />
+
+then draw another line to your specific angle. im using 40degrees here. again use line and dimension tool:
+
+<img width="597" height="497" alt="image" src="https://github.com/user-attachments/assets/c15d5546-1aa8-4ccc-8c08-80a91ff5b128" />
+
+then use the fillet tool. the fillet tool takes in 2 edges and the edges should coincident somewhere too. so select the fillet tool:
+
+<img width="177" height="87" alt="image" src="https://github.com/user-attachments/assets/c36c211d-01ec-49fa-92b8-3fa1dcf95620" />
+
+and select both the edges:
+
+<img width="623" height="508" alt="image" src="https://github.com/user-attachments/assets/e743d833-7719-4c34-a6ce-4b52990f8996" />
+
+and fillet and make it smooth as possible. my max was 7, max depends on the length of your first line:
+
+<img width="542" height="452" alt="image" src="https://github.com/user-attachments/assets/579acb76-b8cf-487a-9a1c-8d00b03e7d16" />
+
+and thats it. thats one way of making good curves. the 
+
+
 
 this is what i did:
 
