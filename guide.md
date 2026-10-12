@@ -92,11 +92,11 @@ select the dimension tool:
 
 <img width="188" height="119" alt="image" src="https://github.com/user-attachments/assets/24c699e9-63dd-4c9f-a6d4-9d8c3c1a7525" />
 
-and click on any edge. then click again a little bit farther from it. then type in your desired value, for this tutorial use 75mm. if the size dialog goes away, double click the number you just got:
+and click on any edge. then click again a little bit farther from it. then type in your desired value, for this tutorial use 100mm. if the size dialog goes away, double click the number you just got:
 
 <img width="382" height="482" alt="image" src="https://github.com/user-attachments/assets/a9e258c8-c603-48f2-a146-9ed2b0aba014" />
 
-then do the same thing for the other side and make it 75mm again:
+then do the same thing for the other side and make it 100mm again:
 
 <img width="362" height="405" alt="image" src="https://github.com/user-attachments/assets/46dd0ff2-3804-49dc-a2c3-35e5ffe3abbc" />
 
@@ -232,7 +232,7 @@ now were gnna make the profile that will sweep and actually make the tracks, her
 <img width="1276" height="718" alt="image" src="https://github.com/user-attachments/assets/220e143a-814c-4c8e-9796-dc49d8ed3036" />
 
 
-so we are using marbles that are 16mm in diameter. so my tracks have 18mm inner diameter to have some tolerance and slack. my tracks outer diameter is 23mm, so with that the track is 2.5mm thick. heres my sketch of a track:
+so we are using marbles that are 8mm in diameter. so my tracks have 9mm inner diameter to have some tolerance and slack. my tracks outer diameter is 14mm, so with that the track is 2.5mm thick. heres my sketch of a track:
 
 first select the center point circle tool:
 
@@ -250,19 +250,19 @@ select the dimension tool then select the circles edge:
 
 <img width="137" height="77" alt="image" src="https://github.com/user-attachments/assets/652e6187-777d-40c9-8e16-5b0a576fbcc6" />
 
-and click anywhere. it should bring up a dialog like before. make this 18mm:
+and click anywhere. it should bring up a dialog like before. make this 9mm:
 
-<img width="438" height="366" alt="image" src="https://github.com/user-attachments/assets/11dbf76d-dba6-4c64-ae1e-cfc4f1d02d19" />
+<img width="491" height="402" alt="image" src="https://github.com/user-attachments/assets/d0c28983-3216-4fb4-9eed-8586944f2996" />
 
 (if the dialog dissapears just double click the number again)
 
-then draw another circle with 23mm diamater, using the same process:
+then draw another circle with 14mm diamater, using the same process:
 
-<img width="459" height="395" alt="image" src="https://github.com/user-attachments/assets/df6e634d-8643-4b66-9c1e-8f79ae2f5e6a" />
+<img width="469" height="469" alt="image" src="https://github.com/user-attachments/assets/39093418-ef54-4aba-aeff-706a63f17edb" />
 
 this gives us a thickness of 23-18 / 2 which is 2.5mm (i used the dimension tool to measure):
 
-<img width="769" height="703" alt="image" src="https://github.com/user-attachments/assets/12803671-b688-460c-8a99-68b096654e53" />
+<img width="534" height="495" alt="image" src="https://github.com/user-attachments/assets/fd11e37a-296f-496c-8622-7be9e671c8cb" />
 
 then make a horizontal line using the line tool:
 
@@ -270,11 +270,11 @@ then make a horizontal line using the line tool:
 
 like this:
 
-<img width="796" height="677" alt="image" src="https://github.com/user-attachments/assets/d2ddf8eb-e54f-4c0c-90f8-cdc76ffd802f" />
+<img width="522" height="528" alt="image" src="https://github.com/user-attachments/assets/32756136-8287-4b42-b379-7cd8b95302c0" />
 
 then make another line similar, but dont make it horizontal. like this:
 
-<img width="735" height="713" alt="image" src="https://github.com/user-attachments/assets/f3646ca3-005b-4ac6-953f-1d43367359bb" />
+<img width="501" height="521" alt="image" src="https://github.com/user-attachments/assets/484a23a5-3740-4860-a265-fb986f73d1dc" />
 
 then again, use the dimension tool. this time we will be using it to set the angle between 2 lines. select the dimension tool:
 
@@ -282,19 +282,19 @@ then again, use the dimension tool. this time we will be using it to set the ang
 
 select both lines:
 
-<img width="401" height="343" alt="image" src="https://github.com/user-attachments/assets/358980ed-ac01-46af-9f0a-e3fa8ae39066" />
+<img width="562" height="489" alt="image" src="https://github.com/user-attachments/assets/869165fc-679e-428d-9fd2-dbb0ca3fdb18" />
 
 then click again between the line, it brings up a dialog. this value determines the angle between these 2 lines:
 
-<img width="422" height="309" alt="image" src="https://github.com/user-attachments/assets/e4bc07b8-4625-4b6f-8e7d-25ddbb05a3fd" />
+<img width="597" height="510" alt="image" src="https://github.com/user-attachments/assets/f4296010-0d14-4096-8a88-21f33a63f98d" />
 
 then set this to 20degrees:
 
-<img width="814" height="683" alt="image" src="https://github.com/user-attachments/assets/17d5ac44-cd27-4cf3-bbf7-cfb49a212e1b" />
+<img width="505" height="518" alt="image" src="https://github.com/user-attachments/assets/556c2225-c606-4fbc-a45c-8148fee8f966" />
 
 after that, we will use the mirror tool to replicate this on the other side. first draw a small line that goes either downwards or upwards like this:
 
-<img width="728" height="565" alt="image" src="https://github.com/user-attachments/assets/70b0a6f1-5315-4cdc-9cfe-285c4e3db9fa" />
+<img width="515" height="512" alt="image" src="https://github.com/user-attachments/assets/c259f783-c431-40a9-bfdb-f23cf5509d3a" />
 
 then select the mirror tool:
 
@@ -302,15 +302,15 @@ then select the mirror tool:
 
 the mirror tool basically mirrors sketch lines along an axis. so it takes in a axis line first then objects to be mirrored. we made that small line to be the mirror axis. so select that line:
 
-<img width="759" height="653" alt="image" src="https://github.com/user-attachments/assets/2b3203d3-941b-45ef-a831-4988b79e077e" />
+<img width="543" height="549" alt="image" src="https://github.com/user-attachments/assets/6e6f36cb-2728-4abf-9992-99c7cfb53165" />
 
 then the other line that we angled:
 
-<img width="740" height="651" alt="image" src="https://github.com/user-attachments/assets/d5b2f915-cfb6-490e-9147-c38d86d8f208" />
+<img width="505" height="491" alt="image" src="https://github.com/user-attachments/assets/7644d3aa-6932-4e37-8384-0e75272d9159" />
 
 and it should form a replica:
 
-<img width="740" height="651" alt="image" src="https://github.com/user-attachments/assets/3648dd86-3372-4a11-91ab-2a8f246ce5ea" />
+<img width="564" height="515" alt="image" src="https://github.com/user-attachments/assets/9cae62a1-6157-4590-a7cf-4d7d8ba1b0d7" />
 
 right now it looks really messy. so we will use the trim tool to tidy it up. select the trim tool:
 
@@ -322,7 +322,7 @@ https://github.com/user-attachments/assets/caa1a6d4-f8b2-48d7-8523-cfd61a985c23
 
 this should remain:
 
-<img width="706" height="443" alt="image" src="https://github.com/user-attachments/assets/40786e98-24a7-4901-8136-0fe4c865ed7f" />
+<img width="477" height="403" alt="image" src="https://github.com/user-attachments/assets/58354668-55e3-4de8-8c4a-f69eaa71ce5e" />
 
 and thats the track profle! now we will lets make the track by sweeping.
 
