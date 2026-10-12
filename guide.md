@@ -326,11 +326,31 @@ this should remain:
 
 and thats the track profle! now we will lets make the track by sweeping.
 
+first select the sweep tool in the top bar:
 
+<img width="80" height="70" alt="image" src="https://github.com/user-attachments/assets/5fabbf62-f8c4-49e5-bc07-69b0d507a12d" />
 
-<img width="621" height="322" alt="image" src="https://github.com/user-attachments/assets/77fe8f16-636b-4f57-8fc5-415cbed0d898" />
+the sweep tool takes lines and curves as a path and a profile. so first after selecting the sweep tool, lets select the profile we just made:
+
+<img width="816" height="563" alt="image" src="https://github.com/user-attachments/assets/9d74d462-0e8b-4a07-87de-23f6ba1ace46" />
+
+then click on the sweep path, in the sweep window:
+
+<img width="418" height="145" alt="image" src="https://github.com/user-attachments/assets/8b22a75e-642c-41d2-b6f6-bf177f6d0a56" />
+
+<img width="399" height="98" alt="image" src="https://github.com/user-attachments/assets/02cab674-6981-4a38-b8d4-2c5faf760a18" />
+
+and click on that line:
+
+<img width="565" height="559" alt="image" src="https://github.com/user-attachments/assets/a0b88923-fe72-4b39-a0b5-9ab05de2fe39" />
+
+it should give this:
 
 <img width="859" height="588" alt="image" src="https://github.com/user-attachments/assets/72227708-9469-497f-958c-826f58127694" />
+
+click on the green tick to confirm:
+
+<img width="99" height="95" alt="image" src="https://github.com/user-attachments/assets/4d6afbae-d0b7-4cb8-b32a-2f9227ea0357" />
 
 and thats how to make a basic track! the next thing you learn is how to make advanced path sketches:
 
