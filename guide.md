@@ -171,7 +171,14 @@ after that, we have to edit the length of the line using the dimension tool. the
 
 <img width="102" height="89" alt="image" src="https://github.com/user-attachments/assets/693888ab-4008-4ace-8270-c66b85ff54e7" />
 
-and select the line, and click again, a little bit away from the line. it should bring up a window where you can put in a numerical value. im using 50mm 
+and select the line, and click again, a little bit away from the line. 
+
+<img width="434" height="110" alt="image" src="https://github.com/user-attachments/assets/c3a04f09-1bd1-441f-aa60-163dca77971c" />
+
+it should bring up a window where you can put in a numerical value. im using 50mm. if the window goes away you can double click on the number to bring it back again.
+
+<img width="436" height="154" alt="image" src="https://github.com/user-attachments/assets/a29fac1f-c663-493e-8b5b-72430b8b39ba" />
+
 
 all together:
 
@@ -196,8 +203,6 @@ and set it to line angle:
 <img width="269" height="60" alt="image" src="https://github.com/user-attachments/assets/7383f466-107d-4f6f-9f83-eedd96493fad" />
 
 and select the line you have made from the sketch. we are angle-ing this so that the track leads downward, thus the ball goes down using gravity. 
-
-
 
 > #### Planes on Onshape:
 > planes are a very important part of this tutorial, you have to use them as where the sketch is actually drawn. there are multiple ways of making a plane, [this](https://cad.onshape.com/help/Content/PartStudio/plane.htm) guide shows all the different types of planes and how they are made. 
