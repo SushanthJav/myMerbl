@@ -676,5 +676,7 @@ heres a list of stuff to ~~steal~~ get inspired from!:
 
 <img width="1657" height="1486" alt="image" src="https://github.com/user-attachments/assets/2f73be81-49be-4766-aa8c-e9b8bf3ef34c" />
 
+<img width="213" height="453" alt="image" src="https://github.com/user-attachments/assets/1da0796c-e24c-48c4-a158-e71e11a5eb9f" />
 
+<img width="426" height="457" alt="image" src="https://github.com/user-attachments/assets/8ee0e6e4-3400-4f17-895c-7cf1ddb9c5be" />
 
