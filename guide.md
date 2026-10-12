@@ -398,7 +398,6 @@ i used 70degrees:
 
 <img width="861" height="543" alt="image" src="https://github.com/user-attachments/assets/8aa5cd1c-3c7a-4dd1-aff9-24b4bdc25435" />
 
-
 after that, make a sketch on it:
 
 <img width="567" height="562" alt="image" src="https://github.com/user-attachments/assets/6475c50c-5f8b-4ba6-9da0-a159b64e022f" />
@@ -426,11 +425,33 @@ and select both the edges:
 
 <img width="623" height="508" alt="image" src="https://github.com/user-attachments/assets/e743d833-7719-4c34-a6ce-4b52990f8996" />
 
-and fillet and make it smooth as possible. my max was 7, max depends on the length of your first line:
+and fillet and make it smooth as possible, this value has to be above 12 or it wont work (atleast for the profile we made, it will intersect itself and cause error):
 
 <img width="542" height="452" alt="image" src="https://github.com/user-attachments/assets/579acb76-b8cf-487a-9a1c-8d00b03e7d16" />
 
-and thats it. thats one way of making good curves. the 
+and thats it. thats one way of making good curves. remember that the radius should be more than 12.
+
+### Lines + Circles
+this method is fairly simple. it has more control but takes more time. first we are going to use the center circle. first mark a centre. we will use the line tool to determine the radius, and the position of the circle.
+
+select the line tool and draw a line from the end of the line:
+
+<img width="588" height="547" alt="image" src="https://github.com/user-attachments/assets/6c6c0b4c-cedf-42fa-8ccf-784fa1778658" />
+
+use the dimension tool to determine the length of the line. this will also be the radius of our circle. im using 20mm:
+
+<img width="299" height="315" alt="image" src="https://github.com/user-attachments/assets/8334e47d-f2dd-4e0c-a10c-c97002bf1411" />
+
+then use the dimension tool again to determine the angle:
+
+<img width="592" height="538" alt="image" src="https://github.com/user-attachments/assets/77dc67ec-d3c3-4e70-b7bd-80df1ed35067" />
+
+then make a center circle from that endpoint of the line till the line like this:
+
+<img width="752" height="514" alt="image" src="https://github.com/user-attachments/assets/9452e666-6ced-4f79-bfa7-355aa0fce2b5" />
+
+
+
 
 
 
