@@ -672,3 +672,9 @@ etcetc. its up to you and your creativity.
 
 after you do make the marble track, dont add supports. we are gnna use the generated supports from the slicer.
 
+heres a list of stuff to ~~steal~~ get inspired from!:
+
+<img width="1657" height="1486" alt="image" src="https://github.com/user-attachments/assets/2f73be81-49be-4766-aa8c-e9b8bf3ef34c" />
+
+
+
