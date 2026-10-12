@@ -670,7 +670,7 @@ so that is how you make basic parts of a marble track. its up to you how you wan
 - make your own custom track!
 etcetc. its up to you and your creativity. 
 
-after you do make the marble track, dont add supports. we are gnna use the generated supports from the slicer.
+after you do make the marble track, dont add supports. we are gnna use the generated supports from the slicer. 
 
 heres a list of stuff to ~~steal~~ get inspired from!:
 
