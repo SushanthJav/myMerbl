@@ -1,0 +1,30 @@
+# merbl
+
+<img width="802" height="811" alt="image" src="https://github.com/user-attachments/assets/a1ca5215-a64b-48d8-8663-d5935da19914" />
+
+merbl is a fully 3d printed marble run. you design the tracks yourself in onshape, print them and watch how the marble rolls.
+
+the guide to make your own merbl run is [here](https://github.com/karnxx/merbl/blob/main/guide.md)
+
+## What is 'merbl'?
+merbl is a marble race you design from scratch. you build a base, and then tracks by sweeping profile along a path. from there you can also add custom tracks like a plinko, or a swirl and many more! 
+you also dont need CAD experience. the guide teaches how to use Onshape, a cloud - a free 3D CAD-ing software that you run in your browswer, even if you dont know how to use it. 
+
+### What you will learn
+- Sketching shapes on planes
+- Sweeping a track shape along a path
+- Extruding and revolving flat shapes into 3D parts
+- Using fillets and chamfers to smooth out corners
+
+## Why?
+this project was to teach beginners how to cad, for [halflife](https://halflife.hackclub.com/) week 2!
+
+## Status
+the [guide](https://github.com/karnxx/merbl/blob/main/guide.md) is done, which covers tracks, bases, pinko track, funnels, stepping tracks, and advanced tracks.
+
+## Printing
+merbl is designed so that the tracks use the slicer generated supports (thin tree) as the supports for the track, therefore serving 2 purposes. before printing, check that the supports are not getting generated in the middle of the tracks.
+
+## Repo Content
+- cad/ for 3d files
+- guide.md for the guide
