@@ -121,7 +121,7 @@ then use the dimension tool, and select the edge of the circle. set the measurem
 
 thats the circle tool!
 
-## Spline
+## spline
 this tool allows you to make any type of shape. it allows us to draw smooth continuous, and freeform lines through points we have to determine. to make the base first draw a rectangle of 100x100mm (if you are confused you can use the rectangle tool tutorial):
 
 <img width="553" height="536" alt="image" src="https://github.com/user-attachments/assets/6bdbbe0f-976a-4247-9e3b-bdb0e656d7fc" />
@@ -134,6 +134,7 @@ then place a 2 points anywhere inside the rectangle, and keep placing, you will 
 
 <img width="559" height="538" alt="image" src="https://github.com/user-attachments/assets/e672f1f4-91c1-4bc6-ad11-213df6a0fe29" />
 
+and thats spline! you can change the position of the points by dragging them to diff positions
 
 
 > #### Sketches on Onshape:
