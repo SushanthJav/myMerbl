@@ -450,11 +450,6 @@ then make a center circle from that endpoint of the line till the line like this
 
 <img width="752" height="514" alt="image" src="https://github.com/user-attachments/assets/9452e666-6ced-4f79-bfa7-355aa0fce2b5" />
 
-
-
-
-
-
 this is what i did:
 
 <img width="442" height="497" alt="image" src="https://github.com/user-attachments/assets/b27937eb-66d7-44e6-9b95-e27803f2a5aa" />
@@ -670,7 +665,11 @@ so that is how you make basic parts of a marble track. its up to you how you wan
 - make your own custom track!
 etcetc. its up to you and your creativity. 
 
-after you do make the marble track, dont add supports. we are gnna use the generated supports from the slicer. 
+### Supports
+a 3dprinter prints plastic one layer at a time, from bottom so each layer needs something under it. if theres nothing under it then the plastic will just droop and it wouldnt print. thats why supports exist, slicers (which are programs made to convert 3d data into instructions a 3dprinter can follow) auto generate supports wherever it needs to. 
+so you dont need to design supports in onshape. the slicer will add them for you. i recommend tree thin supports. 
+supports grow anywhere from empty space. this means that if you have 2 tracks directly above each other, supports will grow from the bottom track. its fine if they touch the outside of your track but never the inside where the marble rolls, or it could form a blockage. before you print always make sure to look at where supports are being generated.
+after the print is done, roll a marble through it to see if it works 
 
 heres a list of stuff to ~~steal~~ get inspired from!:
 
