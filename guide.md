@@ -65,7 +65,7 @@ click on the sketch icon on the top-left corner:
 
 <img width="369" height="240" alt="image" src="https://github.com/user-attachments/assets/ef1a328a-7a5e-4e4d-a794-a8a501cd15d6" />
 
-then sketching needs a plane. click on any of the default planes of onshape (top, right, front):
+then sketching needs a plane. click on the top plane (onshape has 3 default planes, top, right, front):
 
 <img width="1566" height="922" alt="image" src="https://github.com/user-attachments/assets/39ad72f1-4d21-4d75-8601-5cfd99964fed" />
 
@@ -120,6 +120,21 @@ then use the dimension tool, and select the edge of the circle. set the measurem
 <img width="641" height="601" alt="image" src="https://github.com/user-attachments/assets/9cee9d2b-aca3-4400-ac0a-10f6821e8d15" />
 
 thats the circle tool!
+
+## Spline
+this tool allows you to make any type of shape. it allows us to draw smooth continuous, and freeform lines through points we have to determine. to make the base first draw a rectangle of 100x100mm (if you are confused you can use the rectangle tool tutorial):
+
+<img width="553" height="536" alt="image" src="https://github.com/user-attachments/assets/6bdbbe0f-976a-4247-9e3b-bdb0e656d7fc" />
+
+then select the spline tool:
+
+<img width="120" height="72" alt="image" src="https://github.com/user-attachments/assets/e5e7be97-c8cf-4c44-96d6-3d78eacc6b60" />
+
+then place a 2 points anywhere inside the rectangle, and keep placing, you will see that it will form curves. make sure it is inside the rectangle.
+
+<img width="559" height="538" alt="image" src="https://github.com/user-attachments/assets/e672f1f4-91c1-4bc6-ad11-213df6a0fe29" />
+
+
 
 > #### Sketches on Onshape:
 > a detailed guide about sketches are [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
