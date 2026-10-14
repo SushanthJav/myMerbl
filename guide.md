@@ -3,7 +3,9 @@
 
 
 Hii!!!! This is a guide on how to make your own 3D-Printed Marble Race!!!
-This guide covers the CAD-ing process for the marble race. You have to make your own course to get approved!
+This guide covers the CAD-ing process for the marble race. 
+
+You have to make your own course to get approved!
 
 You will learn how to CAD a marble race from scratch on Onshape.
 
