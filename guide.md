@@ -3,7 +3,7 @@
 
 
 Hii!!!! This is a guide on how to make your own 3D-Printed Marble Race!!!
-This guide covers the CAD-ing process for the marble race.
+This guide covers the CAD-ing process for the marble race. You have to make your own course to get approved!
 
 You will learn how to CAD a marble race from scratch on Onshape.
 
@@ -20,7 +20,9 @@ iii. Custom Tracks
 The flow of a marble race is basically: \
 **Plan → Sketch Path → Sweep The Path With Track Profile → Reinforce The Tracks → Add Supports → Text → Repeat**
 
-You'll start by thinking how you want the marble to move and then actually turn that into tracks and stuff.
+You'll start by thinking how you want the marble to move and then actually turn that into tracks and stuff. 
+
+Don't worry about mounting the tracks and stuff to the base, just make sure the track is above the base, and that tree supports are enabled. after that the supports will help us mount our course.
 
 ### You will be working with:
 - **Sketches** : drawings on a 2d plane
@@ -134,7 +136,7 @@ then place a 2 points anywhere inside the rectangle, and keep placing, you will 
 
 <img width="559" height="538" alt="image" src="https://github.com/user-attachments/assets/e672f1f4-91c1-4bc6-ad11-213df6a0fe29" />
 
-and thats spline! you can change the position of the points by dragging them to diff positions
+and thats spline! you can change the position of the points by dragging them to diff positions. 
 
 
 > #### Sketches on Onshape:
@@ -152,7 +154,7 @@ select the extrude tool:
 
 <img width="128" height="74" alt="image" src="https://github.com/user-attachments/assets/4d409a5f-a088-42dc-a78e-253c1faca5df" />
 
-after you select the extrude tool, select the profile (closed shape) we made:
+after you select the extrude tool, select the profile (closed shape) we made. for the spline select the area of the spline inside the rectangle:
 
 <img width="966" height="831" alt="image" src="https://github.com/user-attachments/assets/8e312ad6-0362-43df-bb44-b32be354b323" />
 
