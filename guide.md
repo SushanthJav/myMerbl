@@ -253,7 +253,7 @@ now were gnna make the profile that will sweep and actually make the tracks, her
 <img width="1276" height="718" alt="image" src="https://github.com/user-attachments/assets/220e143a-814c-4c8e-9796-dc49d8ed3036" />
 
 
-so we are using marbles that are 8mm in diameter, which we are gnna 3d print. so my tracks have 9mm inner diameter to have some tolerance and slack. my tracks outer diameter is 14mm, so with that the track is 2.5mm thick. heres my sketch of a track:
+so the guide uses marbles that are 8mm in diameter, which we are gnna 3d print. so my tracks have 9mm inner diameter to have some tolerance and slack. my tracks outer diameter is 14mm, so with that the track is 2.5mm thick. heres my sketch of a track:
 
 first select the center point circle tool:
 
@@ -684,7 +684,46 @@ so that is how you make basic parts of a marble track. its up to you how you wan
 - make it modular!
 - add a motor and an archimedes screw to bring the motor back to the beginning!
 - make your own custom track!
-etcetc. its up to you and your creativity. 
+etcetc. its up to you and your creativity.
+
+### Marble
+we have to design and print our own marble of 8mm.
+
+to make a sphere, we have to revolve a semicircle. first make a sketch in any plane:
+
+<img width="180" height="64" alt="image" src="https://github.com/user-attachments/assets/bfe07f4a-d4a4-48eb-acaf-7e93d6729712" />
+
+<img width="523" height="285" alt="image" src="https://github.com/user-attachments/assets/7423e718-03b4-4584-86c8-ca26e273d6bc" />
+
+then draw a circle. the diameter of this circle is the diameter of our marble. the guide uses a marble diameter of 8mm. use the dimension tool again to determine the size of your circle:
+
+<img width="326" height="257" alt="image" src="https://github.com/user-attachments/assets/29c008e7-17a9-4728-8c7d-41f95f86b79a" />
+
+after that, use the line tool to make a line like this:
+
+<img width="611" height="624" alt="image" src="https://github.com/user-attachments/assets/3d52f109-a6a9-4cac-9824-0a2e872bacc9" />
+
+then do the same for the opposite side:
+
+<img width="466" height="363" alt="image" src="https://github.com/user-attachments/assets/03fccc1b-eb32-485c-8d58-9df2abbd43e2" />
+
+then finish the sketch by clicking on the green checkmark. we are going to use the revolve tool now. select the revolve tool:
+
+<img width="135" height="69" alt="image" src="https://github.com/user-attachments/assets/8487d665-7bf0-4334-8f23-1f8ea0c92340" />
+
+select one half of the circle as the profile entity
+
+<img width="659" height="486" alt="image" src="https://github.com/user-attachments/assets/0c3ae0e4-3d9f-478c-90d0-36315159d084" />
+
+then select the line that divides the circle as the axis:
+
+<img width="623" height="467" alt="image" src="https://github.com/user-attachments/assets/0f784742-27a3-41c8-993d-45ee7316bd4f" />
+
+then it should form a sphere like this:
+
+<img width="678" height="504" alt="image" src="https://github.com/user-attachments/assets/0e1555e8-2244-4599-876e-63191cdbf9b2" />
+
+click the green checkmark and thats your marble!
 
 ### Supports
 a 3dprinter prints plastic one layer at a time, from bottom so each layer needs something under it. if theres nothing under it then the plastic will just droop and it wouldnt print. thats why supports exist, slicers (which are programs made to convert 3d data into instructions a 3dprinter can follow) auto generate supports wherever it needs to. 
