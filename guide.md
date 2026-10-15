@@ -375,6 +375,8 @@ click on the green tick to confirm:
 
 and thats how to make a basic track! the next thing you learn is how to make advanced path sketches:
 
+### advanced sketches
+
 first we will delete the track we just made. to delete, there is a parts window which has a list of all our 3d parts in the bottom left, we can delete and hide stuff here:
 
 <img width="357" height="355" alt="image" src="https://github.com/user-attachments/assets/9139d657-6fd1-428c-af58-98ac227f93be" />
