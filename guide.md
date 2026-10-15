@@ -612,7 +612,7 @@ you can edit the entrance and exit to your will/use.
 ### Funnel
 making a funnel is pretty easy, we are going to use revolve, fillet and  with the sketch. first start by making a sketch and and make a line. the length of the line doesnt really matter, we will be using this as an axis for revolve
 
-after that, make another line that is 8.5mm far from the first line. also make sure that this like is parallel to the first line. the length of this line actually matters, as this is the drop of our marble. so you have to minimally make it 20mm. like this:
+after that, make another line that is 5mm far from the first line. also make sure that this like is parallel to the first line. the length of this line actually matters, as this is the drop of our marble. so you have to minimally make it 20mm. like this:
 
 <img width="392" height="483" alt="image" src="https://github.com/user-attachments/assets/10849778-ecb1-4ee0-9bad-91e47f67af66" />
 
