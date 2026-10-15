@@ -253,7 +253,7 @@ now were gnna make the profile that will sweep and actually make the tracks, her
 <img width="1276" height="718" alt="image" src="https://github.com/user-attachments/assets/220e143a-814c-4c8e-9796-dc49d8ed3036" />
 
 
-so we are using marbles that are 8mm in diameter. so my tracks have 9mm inner diameter to have some tolerance and slack. my tracks outer diameter is 14mm, so with that the track is 2.5mm thick. heres my sketch of a track:
+so we are using marbles that are 8mm in diameter, which we are gnna 3d print. so my tracks have 9mm inner diameter to have some tolerance and slack. my tracks outer diameter is 14mm, so with that the track is 2.5mm thick. heres my sketch of a track:
 
 first select the center point circle tool:
 
