@@ -7,7 +7,7 @@ merbl is a fully 3d printed marble run. you design the tracks yourself in onshap
 the guide to make your own merbl run is [here](https://github.com/karnxx/merbl/blob/main/guide.md)
 
 ## What is 'merbl'?
-merbl is a marble race you design from scratch. you build a base, and then tracks by sweeping profile along a path. from there you can also add custom tracks like a plinko, or a swirl and many more! 
+[merbl](https://cad.onshape.com/documents/af77434678144fcf96452270/w/30247c686058b6af917e545a/e/5e3c54be8413d5c989296ebd?renderMode=0&uiState=6ad06a04fd3cb8c6e1e50d52) is a marble race you design from scratch. you build a base, and then tracks by sweeping profile along a path. from there you can also add custom tracks like a plinko, or a swirl and many more! 
 you also dont need CAD experience. the guide teaches how to use Onshape, a cloud - a free 3D CAD-ing software that you run in your browswer, even if you dont know how to use it. 
 
 ### What you will learn
