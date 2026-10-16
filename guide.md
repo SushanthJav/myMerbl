@@ -469,7 +469,7 @@ and select both the edges:
 
 <img width="623" height="508" alt="image" src="https://github.com/user-attachments/assets/e743d833-7719-4c34-a6ce-4b52990f8996" />
 
-and fillet and make it smooth as possible, this value has to be above 12 or it wont work (atleast for the profile we made, it will intersect itself and cause error):
+and fillet and make it smooth as possible, this value has to be above 12mm or it wont work (atleast for the profile we made, it will intersect itself and cause error. so we have to make sure that it doesnt intersect anywhere and there is sufficient space) :
 
 <img width="542" height="452" alt="image" src="https://github.com/user-attachments/assets/579acb76-b8cf-487a-9a1c-8d00b03e7d16" />
 
@@ -512,7 +512,7 @@ this is what i did:
 
 <img width="442" height="497" alt="image" src="https://github.com/user-attachments/assets/b27937eb-66d7-44e6-9b95-e27803f2a5aa" />
 
-then make a composite curve out of it. search up 'Composite Curve' and select all the lines in the path:
+then make a composite curve out of it. search up 'Composite Curve' and select all the lines in the path. composite curve basically joins sketched lines to form one line.:
 
 <img width="590" height="503" alt="image" src="https://github.com/user-attachments/assets/099f09a6-4413-42ee-992e-5b492e494184" />
 
