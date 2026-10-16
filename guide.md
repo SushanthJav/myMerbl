@@ -21,7 +21,7 @@ iii. Custom Tracks
 
 #### Before we start
 The flow of a marble race is basically: \
-**Plan → Sketch Path → Sweep The Path With Track Profile → Reinforce The Tracks → Add Supports → Text → Repeat**
+**Plan → Sketch Path → Sweep The Path With Track Profile → Check Supports → Print → Test → Repeat**
 
 You'll start by thinking how you want the marble to move and then actually turn that into tracks and stuff. 
 
@@ -215,7 +215,6 @@ https://github.com/user-attachments/assets/daba3795-5428-42c3-92bc-7ec49f04fc53
 > 
 > <img width="470" height="958" alt="image" src="https://github.com/user-attachments/assets/579ace92-77ed-4079-9c1d-5943323e268f" />
 
-
 use the plane tool:
 
 <img width="108" height="97" alt="image" src="https://github.com/user-attachments/assets/db6cb0b7-2c11-4aa1-ac69-8b170d4c9513" />
@@ -289,11 +288,11 @@ then make a horizontal line using the line tool:
 
 <img width="107" height="75" alt="image" src="https://github.com/user-attachments/assets/000b705f-2208-457b-a7b0-27e5ca546aac" />
 
-like this:
+like this, starting from the circles center to the circumference. make it horizontal:
 
 <img width="522" height="528" alt="image" src="https://github.com/user-attachments/assets/32756136-8287-4b42-b379-7cd8b95302c0" />
 
-then make another line similar, but dont make it horizontal. like this:
+then make another line similarly starting from the center of the circle till the circumference, but dont make it horizontal. like this:
 
 <img width="501" height="521" alt="image" src="https://github.com/user-attachments/assets/484a23a5-3740-4860-a265-fb986f73d1dc" />
 
@@ -313,7 +312,7 @@ then set this to 20degrees:
 
 <img width="505" height="518" alt="image" src="https://github.com/user-attachments/assets/556c2225-c606-4fbc-a45c-8148fee8f966" />
 
-after that, we will use the mirror tool to replicate this on the other side. first draw a small line that goes either downwards or upwards like this:
+after that, we will use the mirror tool to replicate this on the other side. first draw a small line from the center that goes either downwards or upwards like this:
 
 <img width="515" height="512" alt="image" src="https://github.com/user-attachments/assets/c259f783-c431-40a9-bfdb-f23cf5509d3a" />
 
@@ -605,24 +604,25 @@ then draw a line from the start point of the steps to the end point. this will m
 
 <img width="764" height="619" alt="image" src="https://github.com/user-attachments/assets/1b983f4f-40ab-4dcf-9311-a6873a7d9dda" />
 
-then extrude these parts by 18mm:
+then extrude these parts by 10mm:
 
 <img width="686" height="556" alt="image" src="https://github.com/user-attachments/assets/b9d08f22-53ae-4b97-b4bc-b28170ecd638" />
 
 after that, extrude all the parts, in the opposite direction by 3mm:
 
 > to switch direction click this:
+> 
 > <img width="134" height="90" alt="image" src="https://github.com/user-attachments/assets/ae43a4a4-eedf-4052-b2a1-c1a536fb4843" />
 
 <img width="1167" height="816" alt="image" src="https://github.com/user-attachments/assets/74adb9c3-5922-4805-9791-a0305153f95d" />
 
-then extrude those same parts, but this time tick the starting offset. make the offset the thickness of the track (18mm), and depth 3mm:
+then extrude those same parts, but this time tick the starting offset. make the offset the thickness of the track (10mm), and depth 3mm:
 
-<img width="943" height="730" alt="image" src="https://github.com/user-attachments/assets/59595237-f50d-41b8-8d4d-71f2f454cfe6" />
+<img width="820" height="745" alt="image" src="https://github.com/user-attachments/assets/5cbe42b0-271c-44d1-8334-19cb27a97138" />
 
 finally this is what you should get!
 
-<img width="593" height="473" alt="image" src="https://github.com/user-attachments/assets/abeb40d8-1132-4ef9-b52f-17dd25aaf860" />
+<img width="587" height="612" alt="image" src="https://github.com/user-attachments/assets/e0eb67a0-e3b0-412c-8d7e-03465ec178bc" />
 
 you can edit the entrance and exit to your will/use. 
 
