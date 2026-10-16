@@ -610,7 +610,7 @@ finally this is what you should get!
 you can edit the entrance and exit to your will/use. 
 
 ### Funnel
-making a funnel is pretty easy, we are going to use revolve, fillet and  with the sketch. first start by making a sketch and and make a line. the length of the line doesnt really matter, we will be using this as an axis for revolve
+making a funnel is pretty easy, we are going to use revolve, offset, fillet. first start by making a sketch and and make a line. the length of the line doesnt really matter, we will be using this as an axis for revolve
 
 <img width="565" height="433" alt="Screenshot 2026-10-16 130353" src="https://github.com/user-attachments/assets/577809d9-3138-46ff-b8d0-fa837fefdac9" />
 
