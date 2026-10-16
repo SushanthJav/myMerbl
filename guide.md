@@ -77,12 +77,15 @@ you have probably selected which type of movement you have, a list of those [her
 >
 > <img width="390" height="79" alt="image" src="https://github.com/user-attachments/assets/fc7780ed-887f-491c-be48-5a98ddc2691b" />
 >
+> we also have coincident, which makes it so that a point is on a specific line:
+>
+> <img width="390" height="110" alt="image" src="https://github.com/user-attachments/assets/8a057ea4-52ca-4948-81c2-3bba8bdd50f3" />
+>
 > overall these are really important in cad.
 
 # I.BASE
 the base is pretty simple, just sketch any type of base under 150x150x4 mm. for mine, i used a 180x180x3 rectangle. pick a plane, and sketch on it, and just make a rectangle, circle or any shape you want. im gonna show you how to make a base that is a rectangle, and circle.
-to make a plane, first make a sketch:
-click on the sketch icon on the top-left corner:
+to make a sketch first click on the sketch icon on the top-left corner:
 
 <img width="369" height="240" alt="image" src="https://github.com/user-attachments/assets/ef1a328a-7a5e-4e4d-a794-a8a501cd15d6" />
 
@@ -253,7 +256,7 @@ then select the point normal, from this dropdown:
 
 <img width="262" height="45" alt="image" src="https://github.com/user-attachments/assets/936763e9-bf1e-4b77-a860-1225c5b3020d" />
 
-the point normal tool makes a plane, and the planes normal is the line. the plane is positioned at the point we have picked. so select the plane we just made, and a point on the end of the plane, these:
+the point normal tool makes a plane, and the planes normal is the line. the plane is positioned at the point we have picked. so select the line we just made, and a point on the end of the line, these:
 
 <img width="443" height="142" alt="image" src="https://github.com/user-attachments/assets/96b4b669-618e-401c-b6d3-151b3d4ccc0c" />
 
@@ -539,7 +542,6 @@ so we've learnt how to make normal tracks, but we can also add some different tr
 
 <img width="352" height="280" alt="image" src="https://github.com/user-attachments/assets/bc1be77b-cb6e-4610-8356-c35bbf144fcb" />
 
-
 heres how to make some:
 
 ### Plinko Track
@@ -550,6 +552,8 @@ first create a sketch on any plane. then draw a straight line, make it 100mm lon
 then select aligned rectangle and draw a rectangle from one end of the line, after you draw it make it 3x3mm and the opposite point, make it coincident with the line like this:
 
 <img width="340" height="457" alt="image" src="https://github.com/user-attachments/assets/b59e068c-cc46-413f-9367-57a61e22a69b" />
+
+the aligned rectangles make the pegs, which the marble will hit and fall.
 
 after that, draw a line from the opposite end that we just coincidented. this line should be 20mm long and on the earlier line we make:
 
@@ -624,7 +628,7 @@ then draw a line from the start point of the steps to the end point. this will m
 
 <img width="764" height="619" alt="image" src="https://github.com/user-attachments/assets/1b983f4f-40ab-4dcf-9311-a6873a7d9dda" />
 
-then extrude these parts by 10mm, the 10mm is the diameter of our marble.:
+then extrude these parts by 10mm, the 8mm is the diameter of our marble + 2mm for slack, so it doesnt get stuck:
 
 <img width="686" height="556" alt="image" src="https://github.com/user-attachments/assets/b9d08f22-53ae-4b97-b4bc-b28170ecd638" />
 
@@ -651,11 +655,11 @@ making a funnel is pretty easy, we are going to use revolve, offset, fillet. fir
 
 <img width="565" height="433" alt="Screenshot 2026-10-16 130353" src="https://github.com/user-attachments/assets/577809d9-3138-46ff-b8d0-fa837fefdac9" />
 
-after that, make another line that is 5mm far from the first line, this is our funnel radius (diameter/2). also make sure that this line is parallel to the first line. the length of this line actually matters, as this is the drop of our marble. so you have to minimally make it 20mm, this defines the drop of the marble. like this:
+after that, make another line that is 5mm far from the first line, this is our funnel radius (diameter/2 = 10/2, were taking 10mm which is 8mm as our marble diameter, and 2mm as slack). also make sure that this line is parallel to the first line. the length of this line actually matters, as this is the drop of our marble. so you have to minimally make it 20mm, this defines the drop of the marble. like this:
 
 <img width="251" height="511" alt="Screenshot 2026-10-16 130522" src="https://github.com/user-attachments/assets/ebee6e23-ebc6-4415-b4cb-28b6b0cada84" />
 
-then make another line that is angled from the top. make this line at least 30mm long, this determines how many times the ball will revolute around the hole before falling into it. use the dimension tool to set an angle from the distanced line to the line we just made anywhere from 90 to 115 degrees, but you can do it max till 180. i recommend 95 to 115 degrees. the closer your angle is to 90, the gentler the slope is:
+then make another line that is angled from the top. make this line at least 30mm long, this determines how many times the ball will revolute around the hole before falling into it. use the dimension tool to set an angle from the distanced line to the line we just made anywhere from 90 to 115 degrees, but you can do it max till 180. i recommend 95 to 115 degrees. the closer your angle is to 90, the gentler the slope is since it is angled from the drop line:
 
 <img width="593" height="558" alt="image" src="https://github.com/user-attachments/assets/a91b9dbd-8811-4045-a2e9-25f3b107322b" />
 
@@ -736,7 +740,7 @@ and set it to translate by xyz, this makes our body movable in the x y and z axi
 
 <img width="286" height="251" alt="image" src="https://github.com/user-attachments/assets/e0e8256a-7397-4416-bdbf-c0bb11e43829" />
 
-and as the entity, select the funnel:
+and as the entity, select the funnel either from the parts list or just in the 3d view:
 
 <img width="1029" height="627" alt="image" src="https://github.com/user-attachments/assets/7a81695d-664f-48f1-bbc8-9f50f325eae1" />
 
