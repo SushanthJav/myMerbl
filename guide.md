@@ -487,7 +487,7 @@ this is what i got:
 
 <img width="668" height="576" alt="image" src="https://github.com/user-attachments/assets/08383d70-7e0b-4711-8062-cc823cb7bfe2" />
 
-and thats how to make paths! you just have to keep making new planes and sketch and planes and sketch and yeah. 
+and thats how to make paths! keep making angled planes and then sketches on top of that! 
 
 heres a vid based tutorial:
 
@@ -503,6 +503,23 @@ so we've learnt how to make normal tracks, but we can also add some different tr
 <img width="441" height="231" alt="image" src="https://github.com/user-attachments/assets/30746cd2-4953-45b8-b7b6-a3471f353649" />
 
 <img width="352" height="280" alt="image" src="https://github.com/user-attachments/assets/bc1be77b-cb6e-4610-8356-c35bbf144fcb" />
+
+> ### Constraints
+> constraints are rules that the parts of our sketches like points or lines have to follow. the dimension tool sets a constraint for the distance between 2 points, length of a line or an angle.
+> there are multiple constraints like horizontal, which makes 2 points or a set of line segments align parallel to the x-axis of the sketch plane:
+>
+> <img width="400" height="102" alt="image" src="https://github.com/user-attachments/assets/1de309e4-c50d-4101-83dc-3c15708c190e" />
+>
+> and vertical constraint is the same thing but aligned to the y axis.
+>
+> <img width="327" height="104" alt="image" src="https://github.com/user-attachments/assets/8a18c196-8600-4f31-97d4-3258324db6a0" />
+>
+> another constraint is the equal tool which makes 2 line segments equal, or 2 circles the same radius
+>
+> <img width="390" height="79" alt="image" src="https://github.com/user-attachments/assets/fc7780ed-887f-491c-be48-5a98ddc2691b" />
+>
+> overall these are really important in cad.
+
 
 heres how to make some:
 
