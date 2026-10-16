@@ -10,7 +10,7 @@ You have to make your own course to get approved!
 
 You will learn how to CAD a marble race from scratch on Onshape.
 
-### What is Onshape?
+## What is Onshape?
 -   Onshape is a cloud-based CAD-ing software that runs completely on browser. So it is very versatile and beginner friendly.
 -   To use onshape, just go to [this](https://cad.onshape.com/) link and sign up for onshape. 
 
@@ -19,7 +19,7 @@ i. Base \
 ii. Tracks \
 iii. Custom Tracks 
 
-#### Before we start
+## Before we start
 The flow of a marble race is basically: \
 **Plan → Sketch Path → Sweep The Path With Track Profile → Check Supports → Print → Test → Repeat**
 
@@ -27,7 +27,7 @@ You'll start by thinking how you want the marble to move and then actually turn 
 
 Don't worry about mounting the tracks and stuff to the base, just make sure the track is above the base, and that tree supports are enabled. after that the supports will help us mount our course.
 
-### You will be working with:
+## You will be working with:
 - **Sketches** : drawings on a 2d plane
 - **Sweep** : this actually makes the track, by extending a 2d sketch shape along a 3d path
 - **Transform** : moves, rotates and scales the parts
@@ -35,6 +35,8 @@ Don't worry about mounting the tracks and stuff to the base, just make sure the 
 - **Revolve** : sketch profile around an axis at a particular angle
 
 alralr so lets actually get started
+
+---
 
 # 0. SETUP
 if you haven't already, signup for onshape. after that, make a new document by clicking on the create → new document. name it anything you want
@@ -63,7 +65,13 @@ you have probably selected which type of movement you have, a list of those [her
 >
 > <img width="1484" height="918" alt="image" src="https://github.com/user-attachments/assets/727b49ae-87f9-4713-a1ec-ed3a36605744" />
 
-> ### Constraints
+> #### Sketches on Onshape:
+> a detailed guide about sketches are [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
+
+> #### Shapes on Onshape:
+> there are many types of shapes and line which are necessary for this tutorial, more info [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
+
+> #### Constraints
 > constraints are rules that the parts of our sketches like points or lines have to follow. the dimension tool sets a constraint for the distance between 2 points, length of a line or an angle.
 > there are multiple constraints like horizontal, which makes 2 points or a set of line segments align parallel to the x-axis of the sketch plane:
 >
@@ -83,6 +91,8 @@ you have probably selected which type of movement you have, a list of those [her
 >
 > overall these are really important in cad.
 
+---
+
 # I.BASE
 the base is pretty simple, just sketch any type of base under 150x150x4 mm. for mine, i used a 180x180x3 rectangle. pick a plane, and sketch on it, and just make a rectangle, circle or any shape you want. im gonna show you how to make a base that is a rectangle, and circle.
 to make a sketch first click on the sketch icon on the top-left corner:
@@ -95,7 +105,7 @@ then sketching needs a plane. click on the top plane (onshape has 3 default plan
 
 after that, draw your base shape, you can use these tools:
 
-#### rectangle
+## rectangle
 there are 3 types of rectangles on onshape - center rect, 2-point rect, and aligned rect. center rect allows you to determine the centre of the rectangle and one of the corner points. then there is a 2-point rect which just lets you determine 2 opposite corners of a rectangle. then aligned rectangle allows you to determine the angle of one point, and the length of both sides. 
 
 in this tutorial we will use all three. the rectangle tools are here, use the drop down:
@@ -124,7 +134,7 @@ then do the same thing for the other side and make it 100mm again:
 
 <img width="362" height="405" alt="image" src="https://github.com/user-attachments/assets/46dd0ff2-3804-49dc-a2c3-35e5ffe3abbc" />
 
-#### circle
+## circle
 circle just makes a perfect circle. there are 2 types of circles, center circle which is the same as center rectangle, it decides the centre of the circle and the distance from its circumference aka radius. then we have 3 point circle. it determines 3 points that should be on the circumference and forms a circle from that. this is how the circle tool dropdown thing looks like:
 
 <img width="179" height="81" alt="image" src="https://github.com/user-attachments/assets/f66909d1-d532-4f27-a041-a4f83d3fea5b" />
@@ -160,13 +170,7 @@ then place a 2 points anywhere inside the rectangle, and keep placing, you will 
 
 and thats spline! you can change the position of the points by dragging them to diff positions. 
 
-
-> #### Sketches on Onshape:
-> a detailed guide about sketches are [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
-
-> #### Shapes on Onshape:
-> there are many types of shapes and line which are necessary for this tutorial, more info [here](https://cad.onshape.com/help/Content/Sketch/sketch_tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0)
-
+## finishing the base
 after making the shape, click the green check mark to finish sketch:
 
 <img width="176" height="91" alt="image" src="https://github.com/user-attachments/assets/812fe321-348e-41f9-b27a-abb4381475bf" />
@@ -194,11 +198,13 @@ and click on the green check:
 
 <img width="80" height="73" alt="image" src="https://github.com/user-attachments/assets/f3aed8a0-4d23-4708-9435-673085d8ca9c" />
 
+---
 
 # II.TRACKS
 
 tracks need two things - a path and a profile. a profile is a closed 2d sketch shape that were gnna be using for the sweep. a path is lines on a 2d plane that the sweep is actually gnna follow. first we will make a path. 
 
+## path
 start by selecting the sketch tool:
 
 <img width="336" height="143" alt="image" src="https://github.com/user-attachments/assets/4ede3e70-b0ef-49aa-a997-af48ff2b1930" />
@@ -240,6 +246,7 @@ https://github.com/user-attachments/assets/daba3795-5428-42c3-92bc-7ec49f04fc53
 > 
 > <img width="470" height="958" alt="image" src="https://github.com/user-attachments/assets/579ace92-77ed-4079-9c1d-5943323e268f" />
 
+## profile plane
 use the plane tool:
 
 <img width="108" height="97" alt="image" src="https://github.com/user-attachments/assets/db6cb0b7-2c11-4aa1-ac69-8b170d4c9513" />
@@ -270,6 +277,7 @@ and your plane window should be like this:
 
 <img width="224" height="183" alt="image" src="https://github.com/user-attachments/assets/cf67be79-7a5d-4468-ad00-c867f3411286" />
 
+## track profile
 now were gnna make the profile that will sweep and actually make the tracks, here it means the track shape. so this is a very important step. make a sketch on the plane we just made:
 
 <img width="175" height="64" alt="image" src="https://github.com/user-attachments/assets/0454716c-aa0c-4a8a-9092-9cc5cf4c7b38" />
@@ -369,6 +377,7 @@ this should remain:
 
 <img width="477" height="403" alt="image" src="https://github.com/user-attachments/assets/58354668-55e3-4de8-8c4a-f69eaa71ce5e" />
 
+## sweep
 and thats the track profle! now we will lets make the track by sweeping.
 
 first select the sweep tool in the top bar:
@@ -399,7 +408,7 @@ click on the green tick to confirm:
 
 and thats how to make a basic track! the next thing you learn is how to make advanced path sketches:
 
-### advanced sketches
+## advanced sketches
 
 first we will delete the track we just made. to delete, there is a parts window which has a list of all our 3d parts in the bottom left, we can delete and hide stuff here:
 
@@ -421,6 +430,7 @@ and the part gets deleted! to hide/show the part just click on this eye icon:
 
 <img width="258" height="87" alt="image" src="https://github.com/user-attachments/assets/aa4a505d-149f-42e7-8043-0153d6aebd8c" />
 
+### slanting plane
 were gnna make an advanced track now. first we will make a slanting plane, after that we will sketch on it.
 
 to make a plane first select the plane tool:
@@ -531,6 +541,8 @@ heres a vid based tutorial:
 
 https://github.com/user-attachments/assets/f152d832-c026-4709-a9e1-cb710bd09956
 
+---
+
 # III. CUSTOM TRACKS
 so we've learnt how to make normal tracks, but we can also add some different tracks. for example we can make a plinko track, or many others like these::
 
@@ -544,7 +556,7 @@ so we've learnt how to make normal tracks, but we can also add some different tr
 
 heres how to make some:
 
-### Plinko Track
+## Plinko Track
 first create a sketch on any plane. then draw a straight line, make it 100mm long. 
 
 <img width="816" height="132" alt="image" src="https://github.com/user-attachments/assets/2ed655d0-a016-4161-8fff-8f405dd9fc7b" />
@@ -616,8 +628,7 @@ chamfer them such that the marble wont be able to get stuck in a corner
 
 and thats the plinko track! for the entry of the marble you can either use that entrance or just make it so the end of the track is above the plinko so that the ball just falls in, same with the exit.
 
-
-### Staircase Track
+## Staircase Track
 
 first make a sketch on a plane. then im using this for the steps:
 use tools like the equal tool (makes any 2 lines equal), dimension tool, and also copy and paste, which is very easy to use. just drag on what u want to copy and paste, make sure its all selected and then ctrl + c, ctrl + v. 
@@ -650,7 +661,7 @@ finally this is what you should get!
 
 you can edit the entrance and exit to your will/use. 
 
-### Funnel
+## Funnel
 making a funnel is pretty easy, we are going to use revolve, offset, fillet. first start by making a sketch and and make a line. the length of the line doesnt really matter, we will be using this as an axis for revolve
 
 <img width="565" height="433" alt="Screenshot 2026-10-16 130353" src="https://github.com/user-attachments/assets/577809d9-3138-46ff-b8d0-fa837fefdac9" />
@@ -728,6 +739,7 @@ and were done! this is what you should get:
 
 <img width="540" height="330" alt="image" src="https://github.com/user-attachments/assets/01b47066-dbde-4ae9-aa9e-c3528f8e41db" />
 
+### positioning the funnel
 you dont have to directly connect the funnel to anything, you can just add something under the funnel exit to collect the marble. to position the funnel, use the transform tool. the transform tool basically moves, rotates, copies and scales 3d parts. 
 
 <img width="438" height="112" alt="image" src="https://github.com/user-attachments/assets/4fb1837c-3d99-4136-a97b-e85b095915a7" />
@@ -750,14 +762,9 @@ now there should be arrows appearing at your body, these arrows represent moveme
 
 with this you can align your funnel with the track!
 
-## Finishing
-so that is how you make basic parts of a marble track. its up to you how you want to integrate these. you can make ideas of your own too, heres some i thought of-
-- make it modular!
-- add a motor and an archimedes screw to bring the motor back to the beginning!
-- make your own custom track!
-etcetc. its up to you and your creativity.
+---
 
-### Marble
+# Marble
 we have to design and print our own marble of 8mm.
 
 to make a sphere, we have to revolve a semicircle. first make a sketch in any plane:
@@ -796,11 +803,22 @@ then it should form a sphere like this:
 
 click the green checkmark and thats your marble!
 
-### Supports
+---
+
+# Supports
 a 3dprinter prints plastic one layer at a time, from bottom so each layer needs something under it. if theres nothing under it then the plastic will just droop and it wouldnt print. thats why supports exist, slicers (which are programs made to convert 3d data into instructions a 3dprinter can follow) auto generate supports wherever it needs to. 
 so you dont need to design supports in onshape. the slicer will add them for you. i recommend tree thin supports. 
 supports grow anywhere from empty space. this means that if you have 2 tracks directly above each other, supports will grow from the bottom track. its fine if they touch the outside of your track but never the inside where the marble rolls, or it could form a blockage. before you print always make sure to look at where supports are being generated.
 after the print is done, roll a marble through it to see if it works 
+
+---
+
+# Finishing
+so that is how you make basic parts of a marble track. its up to you how you want to integrate these. you can make ideas of your own too, heres some i thought of-
+- make it modular!
+- add a motor and an archimedes screw to bring the motor back to the beginning!
+- make your own custom track!
+etcetc. its up to you and your creativity.
 
 heres a list of stuff to ~~steal~~ get inspired from!:
 
@@ -809,4 +827,3 @@ heres a list of stuff to ~~steal~~ get inspired from!:
 <img width="213" height="453" alt="image" src="https://github.com/user-attachments/assets/1da0796c-e24c-48c4-a158-e71e11a5eb9f" />
 
 <img width="426" height="457" alt="image" src="https://github.com/user-attachments/assets/8ee0e6e4-3400-4f17-895c-7cf1ddb9c5be" />
-
