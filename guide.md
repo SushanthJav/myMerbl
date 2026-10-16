@@ -612,21 +612,23 @@ you can edit the entrance and exit to your will/use.
 ### Funnel
 making a funnel is pretty easy, we are going to use revolve, fillet and  with the sketch. first start by making a sketch and and make a line. the length of the line doesnt really matter, we will be using this as an axis for revolve
 
+<img width="565" height="433" alt="Screenshot 2026-10-16 130353" src="https://github.com/user-attachments/assets/577809d9-3138-46ff-b8d0-fa837fefdac9" />
+
 after that, make another line that is 5mm far from the first line. also make sure that this like is parallel to the first line. the length of this line actually matters, as this is the drop of our marble. so you have to minimally make it 20mm. like this:
 
-<img width="392" height="483" alt="image" src="https://github.com/user-attachments/assets/10849778-ecb1-4ee0-9bad-91e47f67af66" />
+<img width="251" height="511" alt="Screenshot 2026-10-16 130522" src="https://github.com/user-attachments/assets/ebee6e23-ebc6-4415-b4cb-28b6b0cada84" />
 
-then make another line that is angled from the top. make this line at least 50mm long, this determines how many times the ball will revolute around the hole before falling into it. make it angled anywhere from 90 to 115 degrees, but you can do it max till 180. i recommend 95 to 115 degrees:
+then make another line that is angled from the top. make this line at least 30mm long, this determines how many times the ball will revolute around the hole before falling into it. make it angled anywhere from 90 to 115 degrees, but you can do it max till 180. i recommend 95 to 115 degrees:
 
-<img width="792" height="645" alt="image" src="https://github.com/user-attachments/assets/1418596d-2e3c-4401-9992-a3980f3d26c4" />
+<img width="593" height="558" alt="image" src="https://github.com/user-attachments/assets/a91b9dbd-8811-4045-a2e9-25f3b107322b" />
 
 after that, fillet the edges (shift + f) or this:
 
 <img width="196" height="101" alt="image" src="https://github.com/user-attachments/assets/dc79226b-46dd-401e-9f15-5c8a8d93d59e" />
 
-this affects when the ball really falls in the hole. so im using 5mm here, it depends on your angle too:
+this affects when the ball really falls in the hole. so im using 5mm here, it depends on your angle too. click again when youre done setting the radius of the fillet:
 
-<img width="747" height="631" alt="image" src="https://github.com/user-attachments/assets/11dc1695-c9f1-4f59-b350-1fc2f4632fa5" />
+<img width="1353" height="914" alt="image" src="https://github.com/user-attachments/assets/46a03599-13ff-4e7a-9ec8-921b362d17e8" />
 
 after that, offset it. what offset does is copy the same sketch/curve at a distance.
 click o or this button to offset
@@ -635,11 +637,11 @@ click o or this button to offset
 
 so select offset and then the lines we made. this determines the thickness of the wall. so im offsetting it by 3mm. make sure it gets offset on the side opposite to the first line:
 
-<img width="869" height="625" alt="image" src="https://github.com/user-attachments/assets/66f0925a-480f-47db-b99a-dd20e706146f" />
+<img width="684" height="690" alt="image" src="https://github.com/user-attachments/assets/c9106827-0542-40c7-8b31-002e1b672cf6" />
 
 you can fillet it again to make it look better:
 
-<img width="552" height="534" alt="image" src="https://github.com/user-attachments/assets/a054aeb2-674f-4be6-be38-30263e073b01" />
+<img width="822" height="752" alt="image" src="https://github.com/user-attachments/assets/f1aa2aa6-a6b6-470e-9353-650bc02b1000" />
 
 after that, draw a line at the bottom that connects the offset line and the base line:
 
@@ -664,6 +666,10 @@ then extend the first line like this:
 and cut off the other part of the rect:
 
 <img width="393" height="561" alt="image" src="https://github.com/user-attachments/assets/64579f63-bf25-4681-92f6-41f2d979a463" />
+
+this is what you should get:
+
+<img width="718" height="758" alt="image" src="https://github.com/user-attachments/assets/2dd9e414-b76c-485a-87c1-9955f974ecf7" />
 
 after that, the sketch is finished. you can tidy it up a bit by trim tool. then select the revolve tool, select the profiles we made and then the first ever line we made as axis. like this:
 
