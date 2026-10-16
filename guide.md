@@ -77,7 +77,7 @@ then sketching needs a plane. click on the top plane (onshape has 3 default plan
 after that, draw your base shape, you can use these tools:
 
 #### rectangle
-there are 2 types of rectangles on onshape - center rect, 2-point rect, and aligned rect. center rect allows you to determine the centre of the rectangle and one of the corner points. then there is a 2-point rect which just lets you determine 2 opposite corners of a rectangle. then aligned rectangle allows you to determine the angle of one point, and the length of both sides. 
+there are 3 types of rectangles on onshape - center rect, 2-point rect, and aligned rect. center rect allows you to determine the centre of the rectangle and one of the corner points. then there is a 2-point rect which just lets you determine 2 opposite corners of a rectangle. then aligned rectangle allows you to determine the angle of one point, and the length of both sides. 
 
 in this tutorial we will use all three. the rectangle tools are here, use the drop down:
 
@@ -411,7 +411,7 @@ and set it to line angle:
 
 <img width="269" height="60" alt="image" src="https://github.com/user-attachments/assets/7383f466-107d-4f6f-9f83-eedd96493fad" />
 
-and select the line you have made from the sketch. we are angle-ing this so that the track leads downward, thus the ball goes down using gravity. 
+and select the line you have made from the sketch. we are angle-ing this so that the track leads downward, and ball goes down to gravity. this affects how fast the ball goes downwards, and our drawn lines affect how much they go down. 
 
 to determine how much the plane should slant, edit the angle here:
 
@@ -614,11 +614,11 @@ making a funnel is pretty easy, we are going to use revolve, offset, fillet. fir
 
 <img width="565" height="433" alt="Screenshot 2026-10-16 130353" src="https://github.com/user-attachments/assets/577809d9-3138-46ff-b8d0-fa837fefdac9" />
 
-after that, make another line that is 5mm far from the first line, this is our funnel radius (diameter/2). also make sure that this like is parallel to the first line. the length of this line actually matters, as this is the drop of our marble. so you have to minimally make it 20mm. like this:
+after that, make another line that is 5mm far from the first line, this is our funnel radius (diameter/2). also make sure that this line is parallel to the first line. the length of this line actually matters, as this is the drop of our marble. so you have to minimally make it 20mm, this defines the drop of the marble. like this:
 
 <img width="251" height="511" alt="Screenshot 2026-10-16 130522" src="https://github.com/user-attachments/assets/ebee6e23-ebc6-4415-b4cb-28b6b0cada84" />
 
-then make another line that is angled from the top. make this line at least 30mm long, this determines how many times the ball will revolute around the hole before falling into it. make it angled anywhere from 90 to 115 degrees, but you can do it max till 180. i recommend 95 to 115 degrees:
+then make another line that is angled from the top. make this line at least 30mm long, this determines how many times the ball will revolute around the hole before falling into it. use the dimension tool to set an angle from the distanced line to the line we just made anywhere from 90 to 115 degrees, but you can do it max till 180. i recommend 95 to 115 degrees:
 
 <img width="593" height="558" alt="image" src="https://github.com/user-attachments/assets/a91b9dbd-8811-4045-a2e9-25f3b107322b" />
 
@@ -635,7 +635,7 @@ click o or this button to offset
 
 <img width="167" height="66" alt="image" src="https://github.com/user-attachments/assets/9623a050-6410-4935-bd8f-9ce07e96665d" />
 
-so select offset and then the lines we made. this determines the thickness of the wall. so im offsetting it by 3mm. make sure it gets offset on the side opposite to the first line:
+so select offset and then the lines we made - the angled line, the fillet part and the other line we drew. this determines the thickness of the wall. so im offsetting it by 3mm. make sure it gets offset on the side opposite to the first line:
 
 <img width="684" height="690" alt="image" src="https://github.com/user-attachments/assets/c9106827-0542-40c7-8b31-002e1b672cf6" />
 
@@ -686,6 +686,9 @@ fillet this bottom thing too, im filleting it by 1mm:
 and were done! this is what you should get:
 
 <img width="540" height="330" alt="image" src="https://github.com/user-attachments/assets/01b47066-dbde-4ae9-aa9e-c3528f8e41db" />
+
+you dont have to directly connect the funnel to anything, you can just add something under the funnel exit to collect the marble.
+
 
 ## Finishing
 so that is how you make basic parts of a marble track. its up to you how you want to integrate these. you can make ideas of your own too, heres some i thought of-
