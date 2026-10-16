@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/c024b92c-c495-43e8-988b-598370d06997
 # merbl
 
 <img width="802" height="811" alt="image" src="https://github.com/user-attachments/assets/a1ca5215-a64b-48d8-8663-d5935da19914" />
@@ -281,7 +283,7 @@ then draw another circle with 14mm diamater, using the same process:
 
 <img width="469" height="469" alt="image" src="https://github.com/user-attachments/assets/39093418-ef54-4aba-aeff-706a63f17edb" />
 
-this gives us a thickness of 23-18 / 2 which is 2.5mm (i used the dimension tool to measure):
+this gives us a thickness of 14-9 / 2 which is 2.5mm (i used the dimension tool to measure):
 
 <img width="534" height="495" alt="image" src="https://github.com/user-attachments/assets/fd11e37a-296f-496c-8622-7be9e671c8cb" />
 
@@ -339,7 +341,7 @@ right now it looks really messy. so we will use the trim tool to tidy it up. sel
 
 then cut out the useless lines by dragging your mouse on them. like this:
 
-https://github.com/user-attachments/assets/caa1a6d4-f8b2-48d7-8523-cfd61a985c23
+https://github.com/user-attachments/assets/7671de46-f369-4515-aaab-e34ee16a79d9
 
 this should remain:
 
