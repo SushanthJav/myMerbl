@@ -177,6 +177,12 @@ after you select the extrude tool, select the profile (closed shape) we made. fo
 
 <img width="966" height="831" alt="image" src="https://github.com/user-attachments/assets/8e312ad6-0362-43df-bb44-b32be354b323" />
 
+there are 3 types of extrudes, new add and remove. new extrude makes a new body, the add extrude just joins to a body. the remove extrude removes that extruded part off a body.
+
+<img width="220" height="336" alt="image" src="https://github.com/user-attachments/assets/af889e2e-8909-4123-acfe-95f8ddeb97dd" />
+
+(also dont worry bout solid surface and thin, just make sure thats set to solid, were only gnna be using solid for this tutorial)
+
 then the depth of the sketch (the actual thickness) make it 4mm:
 
 <img width="256" height="84" alt="image" src="https://github.com/user-attachments/assets/cd5ddeff-6e3d-4624-a474-1e558bc2115c" />
