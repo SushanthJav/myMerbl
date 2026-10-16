@@ -281,7 +281,7 @@ then draw another circle with 14mm diamater, using the same process:
 
 <img width="469" height="469" alt="image" src="https://github.com/user-attachments/assets/39093418-ef54-4aba-aeff-706a63f17edb" />
 
-this gives us a thickness of 14-9 / 2 which is 2.5mm (i used the dimension tool to measure):
+this gives us a thickness of (14-9) / 2 which is 2.5mm (i used the dimension tool to measure):
 
 <img width="534" height="495" alt="image" src="https://github.com/user-attachments/assets/fd11e37a-296f-496c-8622-7be9e671c8cb" />
 
@@ -614,7 +614,7 @@ making a funnel is pretty easy, we are going to use revolve, fillet and  with th
 
 <img width="565" height="433" alt="Screenshot 2026-10-16 130353" src="https://github.com/user-attachments/assets/577809d9-3138-46ff-b8d0-fa837fefdac9" />
 
-after that, make another line that is 5mm far from the first line. also make sure that this like is parallel to the first line. the length of this line actually matters, as this is the drop of our marble. so you have to minimally make it 20mm. like this:
+after that, make another line that is 5mm far from the first line, this is our funnel radius (diameter/2). also make sure that this like is parallel to the first line. the length of this line actually matters, as this is the drop of our marble. so you have to minimally make it 20mm. like this:
 
 <img width="251" height="511" alt="Screenshot 2026-10-16 130522" src="https://github.com/user-attachments/assets/ebee6e23-ebc6-4415-b4cb-28b6b0cada84" />
 
