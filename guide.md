@@ -63,6 +63,22 @@ you have probably selected which type of movement you have, a list of those [her
 >
 > <img width="1484" height="918" alt="image" src="https://github.com/user-attachments/assets/727b49ae-87f9-4713-a1ec-ed3a36605744" />
 
+> ### Constraints
+> constraints are rules that the parts of our sketches like points or lines have to follow. the dimension tool sets a constraint for the distance between 2 points, length of a line or an angle.
+> there are multiple constraints like horizontal, which makes 2 points or a set of line segments align parallel to the x-axis of the sketch plane:
+>
+> <img width="400" height="102" alt="image" src="https://github.com/user-attachments/assets/1de309e4-c50d-4101-83dc-3c15708c190e" />
+>
+> and vertical constraint is the same thing but aligned to the y axis.
+>
+> <img width="327" height="104" alt="image" src="https://github.com/user-attachments/assets/8a18c196-8600-4f31-97d4-3258324db6a0" />
+>
+> another constraint is the equal tool which makes 2 line segments equal, or 2 circles the same radius
+>
+> <img width="390" height="79" alt="image" src="https://github.com/user-attachments/assets/fc7780ed-887f-491c-be48-5a98ddc2691b" />
+>
+> overall these are really important in cad.
+
 # I.BASE
 the base is pretty simple, just sketch any type of base under 150x150x4 mm. for mine, i used a 180x180x3 rectangle. pick a plane, and sketch on it, and just make a rectangle, circle or any shape you want. im gonna show you how to make a base that is a rectangle, and circle.
 to make a plane, first make a sketch:
@@ -476,7 +492,7 @@ after that, draw a line from the edge of the circle:
 
 <img width="743" height="496" alt="image" src="https://github.com/user-attachments/assets/34c33d9f-0fd8-4899-b15e-40c7315666b0" />
 
-use the tangent tool:
+use the tangent tool. the tangent tool makes a line tangent to a circle, which simply makes the line touch the circles edge and flow smoothly into it:
 
 <img width="460" height="132" alt="image" src="https://github.com/user-attachments/assets/80b2f627-a3fb-4f56-b81d-7db9238381e8" />
 
@@ -516,22 +532,6 @@ so we've learnt how to make normal tracks, but we can also add some different tr
 <img width="441" height="231" alt="image" src="https://github.com/user-attachments/assets/30746cd2-4953-45b8-b7b6-a3471f353649" />
 
 <img width="352" height="280" alt="image" src="https://github.com/user-attachments/assets/bc1be77b-cb6e-4610-8356-c35bbf144fcb" />
-
-> ### Constraints
-> constraints are rules that the parts of our sketches like points or lines have to follow. the dimension tool sets a constraint for the distance between 2 points, length of a line or an angle.
-> there are multiple constraints like horizontal, which makes 2 points or a set of line segments align parallel to the x-axis of the sketch plane:
->
-> <img width="400" height="102" alt="image" src="https://github.com/user-attachments/assets/1de309e4-c50d-4101-83dc-3c15708c190e" />
->
-> and vertical constraint is the same thing but aligned to the y axis.
->
-> <img width="327" height="104" alt="image" src="https://github.com/user-attachments/assets/8a18c196-8600-4f31-97d4-3258324db6a0" />
->
-> another constraint is the equal tool which makes 2 line segments equal, or 2 circles the same radius
->
-> <img width="390" height="79" alt="image" src="https://github.com/user-attachments/assets/fc7780ed-887f-491c-be48-5a98ddc2691b" />
->
-> overall these are really important in cad.
 
 
 heres how to make some:
@@ -618,7 +618,7 @@ then draw a line from the start point of the steps to the end point. this will m
 
 <img width="764" height="619" alt="image" src="https://github.com/user-attachments/assets/1b983f4f-40ab-4dcf-9311-a6873a7d9dda" />
 
-then extrude these parts by 10mm:
+then extrude these parts by 10mm, the 10mm is the diameter of our marble.:
 
 <img width="686" height="556" alt="image" src="https://github.com/user-attachments/assets/b9d08f22-53ae-4b97-b4bc-b28170ecd638" />
 
@@ -649,7 +649,7 @@ after that, make another line that is 5mm far from the first line, this is our f
 
 <img width="251" height="511" alt="Screenshot 2026-10-16 130522" src="https://github.com/user-attachments/assets/ebee6e23-ebc6-4415-b4cb-28b6b0cada84" />
 
-then make another line that is angled from the top. make this line at least 30mm long, this determines how many times the ball will revolute around the hole before falling into it. use the dimension tool to set an angle from the distanced line to the line we just made anywhere from 90 to 115 degrees, but you can do it max till 180. i recommend 95 to 115 degrees:
+then make another line that is angled from the top. make this line at least 30mm long, this determines how many times the ball will revolute around the hole before falling into it. use the dimension tool to set an angle from the distanced line to the line we just made anywhere from 90 to 115 degrees, but you can do it max till 180. i recommend 95 to 115 degrees. the closer your angle is to 90, the gentler the slope is:
 
 <img width="593" height="558" alt="image" src="https://github.com/user-attachments/assets/a91b9dbd-8811-4045-a2e9-25f3b107322b" />
 
@@ -718,8 +718,27 @@ and were done! this is what you should get:
 
 <img width="540" height="330" alt="image" src="https://github.com/user-attachments/assets/01b47066-dbde-4ae9-aa9e-c3528f8e41db" />
 
-you dont have to directly connect the funnel to anything, you can just add something under the funnel exit to collect the marble.
+you dont have to directly connect the funnel to anything, you can just add something under the funnel exit to collect the marble. to position the funnel, use the transform tool. the transform tool basically moves, rotates, copies and scales 3d parts. 
 
+<img width="438" height="112" alt="image" src="https://github.com/user-attachments/assets/4fb1837c-3d99-4136-a97b-e85b095915a7" />
+
+for positioning first click on the transform tool. then set this dropdown - transform type:
+
+<img width="354" height="197" alt="image" src="https://github.com/user-attachments/assets/06874903-968e-495f-aeea-214c53732cde" />
+
+and set it to translate by xyz, this makes our body movable in the x y and z axis:
+
+<img width="286" height="251" alt="image" src="https://github.com/user-attachments/assets/e0e8256a-7397-4416-bdbf-c0bb11e43829" />
+
+and as the entity, select the funnel:
+
+<img width="1029" height="627" alt="image" src="https://github.com/user-attachments/assets/7a81695d-664f-48f1-bbc8-9f50f325eae1" />
+
+now there should be arrows appearing at your body, these arrows represent movement in each axis. you can drag the arrows to position them.
+
+<img width="1232" height="600" alt="image" src="https://github.com/user-attachments/assets/5fee1101-f97d-4fdb-9689-4ceb8b736150" />
+
+with this you can align your funnel with the track!
 
 ## Finishing
 so that is how you make basic parts of a marble track. its up to you how you want to integrate these. you can make ideas of your own too, heres some i thought of-
