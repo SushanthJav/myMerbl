@@ -472,6 +472,20 @@ then make a center circle from that endpoint of the line till the line like this
 
 <img width="752" height="514" alt="image" src="https://github.com/user-attachments/assets/9452e666-6ced-4f79-bfa7-355aa0fce2b5" />
 
+after that, draw a line from the edge of the circle:
+
+<img width="743" height="496" alt="image" src="https://github.com/user-attachments/assets/34c33d9f-0fd8-4899-b15e-40c7315666b0" />
+
+use the tangent tool:
+
+<img width="460" height="132" alt="image" src="https://github.com/user-attachments/assets/80b2f627-a3fb-4f56-b81d-7db9238381e8" />
+
+and select the line and circle. this is what you should get:
+
+<img width="698" height="470" alt="image" src="https://github.com/user-attachments/assets/80811127-12a6-4997-a67f-6bda14c2c337" />
+
+and repeat!
+
 this is what i did:
 
 <img width="442" height="497" alt="image" src="https://github.com/user-attachments/assets/b27937eb-66d7-44e6-9b95-e27803f2a5aa" />
