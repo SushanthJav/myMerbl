@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/c024b92c-c495-43e8-988b-598370d06997
 # merbl
 
 <img width="802" height="811" alt="image" src="https://github.com/user-attachments/assets/a1ca5215-a64b-48d8-8663-d5935da19914" />
