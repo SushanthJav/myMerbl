@@ -242,7 +242,7 @@ all together:
 https://github.com/user-attachments/assets/daba3795-5428-42c3-92bc-7ec49f04fc53
 
 > also you can hide the planes and sketches from the left hand sided features panel:
-> the features panel shows you a timeline of features such as plane, extrude, revolve, etc and you can manage these operations (hide, delete, edit) from this window
+> the features panel shows you a timeline of features such as plane, extrude, revolve, etc and you can manage these operations (hide, delete, edit) from this window. im going to hide the default planes.
 > 
 > <img width="470" height="958" alt="image" src="https://github.com/user-attachments/assets/579ace92-77ed-4079-9c1d-5943323e268f" />
 
@@ -378,7 +378,9 @@ this should remain:
 <img width="477" height="403" alt="image" src="https://github.com/user-attachments/assets/58354668-55e3-4de8-8c4a-f69eaa71ce5e" />
 
 ## sweep
-and thats the track profle! now we will lets make the track by sweeping.
+and thats the track profle! now we will lets make the track by sweeping. 
+
+(i also hid the plane we make the profile on)
 
 first select the sweep tool in the top bar:
 
