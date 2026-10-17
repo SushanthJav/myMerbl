@@ -209,7 +209,7 @@ start by selecting the sketch tool:
 
 <img width="336" height="143" alt="image" src="https://github.com/user-attachments/assets/4ede3e70-b0ef-49aa-a997-af48ff2b1930" />
 
-and then click on any of the default onshape planes (top, right, front). it doesnt matter which of the 3 planes you are choosing:
+and then click on the top plane (default onshape planes: top, right, front). it doesnt matter which of the 3 planes you are choosing:
 
 <img width="1233" height="909" alt="image" src="https://github.com/user-attachments/assets/87157cb1-c3aa-46b6-949f-f946348fa509" />
 
