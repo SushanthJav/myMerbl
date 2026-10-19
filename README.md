@@ -23,6 +23,10 @@ this project was to teach beginners how to cad, for [halflife](https://halflife.
 the [guide](https://github.com/karnxx/merbl/blob/main/guide.md) is done, which covers tracks, bases, pinko track, funnels, stepping tracks, and advanced tracks.
 
 ## Printing
+
+My Merbl Course: <img width="1002" height="818" alt="image" src="https://github.com/user-attachments/assets/c78d0e30-69f0-49f2-a77d-6d2b8c68122f" />
+<img width="1070" height="926" alt="image" src="https://github.com/user-attachments/assets/ffd331c1-96f5-4416-aa7a-222dbd63b6af" />
+
 merbl is designed so that the tracks use the slicer generated supports (thin tree) as the supports for the track, therefore serving 2 purposes. before printing, check that the supports are not getting generated in the middle of the tracks.
 
 ## Repo Content
